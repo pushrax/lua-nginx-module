@@ -180,22 +180,22 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
     switch (c) {
     case 34: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -203,22 +203,22 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         }
     case 39: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -226,38 +226,38 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         }
     case 45: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 0 to row 2 */
-        caps2_0 = caps0_0;
-        caps2_1 = caps0_1;
-        caps2_2 = caps0_2;
-        caps2_3 = caps0_3;
-        caps2_4 = caps0_4;
-        caps2_5 = caps0_5;
-        caps2_6 = caps0_6;
-        caps2_7 = caps0_7;
-        caps2_8 = caps0_8;
-        caps2_9 = caps0_9;
-        caps2_10 = caps0_10;
-        caps2_11 = caps0_11;
-        caps2_12 = caps0_12;
-        caps2_13 = caps0_13;
-        caps2_14 = caps0_14;
-        caps2_15 = caps0_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps0_6 = i - 1;
         caps1_10 = i - 1;
@@ -266,22 +266,22 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         }
     case 91: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_4 = i - 1;
         goto st5;
@@ -289,22 +289,22 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         }
     case 93: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_8 = i - 1;
         goto st6;
@@ -312,22 +312,22 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         }
     case 123: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -335,22 +335,22 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         }
     case 125: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -382,22 +382,22 @@ st1: {  /* DFA node {1} 1 */
     switch (c) {
     case 34: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -405,22 +405,22 @@ st1: {  /* DFA node {1} 1 */
         }
     case 39: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -428,38 +428,38 @@ st1: {  /* DFA node {1} 1 */
         }
     case 45: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 0 to row 2 */
-        caps2_0 = caps0_0;
-        caps2_1 = caps0_1;
-        caps2_2 = caps0_2;
-        caps2_3 = caps0_3;
-        caps2_4 = caps0_4;
-        caps2_5 = caps0_5;
-        caps2_6 = caps0_6;
-        caps2_7 = caps0_7;
-        caps2_8 = caps0_8;
-        caps2_9 = caps0_9;
-        caps2_10 = caps0_10;
-        caps2_11 = caps0_11;
-        caps2_12 = caps0_12;
-        caps2_13 = caps0_13;
-        caps2_14 = caps0_14;
-        caps2_15 = caps0_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps0_6 = i - 1;
         caps1_10 = i - 1;
@@ -468,22 +468,22 @@ st1: {  /* DFA node {1} 1 */
         }
     case 91: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_4 = i - 1;
         goto st5;
@@ -491,22 +491,22 @@ st1: {  /* DFA node {1} 1 */
         }
     case 93: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_8 = i - 1;
         goto st6;
@@ -514,22 +514,22 @@ st1: {  /* DFA node {1} 1 */
         }
     case 123: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -537,22 +537,22 @@ st1: {  /* DFA node {1} 1 */
         }
     case 125: {
         /* transfer caps from row 0 to row 1 */
-        caps1_0 = caps0_0;
-        caps1_1 = caps0_1;
-        caps1_2 = caps0_2;
-        caps1_3 = caps0_3;
-        caps1_4 = caps0_4;
-        caps1_5 = caps0_5;
-        caps1_6 = caps0_6;
-        caps1_7 = caps0_7;
-        caps1_8 = caps0_8;
-        caps1_9 = caps0_9;
-        caps1_10 = caps0_10;
-        caps1_11 = caps0_11;
-        caps1_12 = caps0_12;
-        caps1_13 = caps0_13;
-        caps1_14 = caps0_14;
-        caps1_15 = caps0_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -584,43 +584,43 @@ st2: {  /* DFA node {59,1} 2 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -628,22 +628,22 @@ st2: {  /* DFA node {59,1} 2 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -651,38 +651,38 @@ st2: {  /* DFA node {59,1} 2 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -691,22 +691,22 @@ st2: {  /* DFA node {59,1} 2 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -718,22 +718,22 @@ st2: {  /* DFA node {59,1} 2 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -741,22 +741,22 @@ st2: {  /* DFA node {59,1} 2 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -764,22 +764,22 @@ st2: {  /* DFA node {59,1} 2 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -811,43 +811,43 @@ st3: {  /* DFA node {72,1} 3 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -855,22 +855,22 @@ st3: {  /* DFA node {72,1} 3 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -878,38 +878,38 @@ st3: {  /* DFA node {72,1} 3 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -918,22 +918,22 @@ st3: {  /* DFA node {72,1} 3 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -945,22 +945,22 @@ st3: {  /* DFA node {72,1} 3 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -968,22 +968,22 @@ st3: {  /* DFA node {72,1} 3 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -991,22 +991,22 @@ st3: {  /* DFA node {72,1} 3 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -1038,38 +1038,38 @@ st4: {  /* DFA node {30,50,1} 4 */
     switch (c) {
     case 34: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -1077,38 +1077,38 @@ st4: {  /* DFA node {30,50,1} 4 */
         }
     case 39: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -1116,38 +1116,38 @@ st4: {  /* DFA node {30,50,1} 4 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -1156,38 +1156,38 @@ st4: {  /* DFA node {30,50,1} 4 */
         }
     case 91: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_4 = i - 1;
         goto st5;
@@ -1195,38 +1195,38 @@ st4: {  /* DFA node {30,50,1} 4 */
         }
     case 93: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_8 = i - 1;
         goto st6;
@@ -1234,38 +1234,38 @@ st4: {  /* DFA node {30,50,1} 4 */
         }
     case 123: {
         /* transfer caps from row 2 to row 0 */
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -1273,38 +1273,38 @@ st4: {  /* DFA node {30,50,1} 4 */
         }
     case 125: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -1315,22 +1315,22 @@ st4: {  /* DFA node {30,50,1} 4 */
     }
     /* (c >= 0 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c == 92) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 0 */
-    caps0_0 = caps2_0;
-    caps0_1 = caps2_1;
-    caps0_2 = caps2_2;
-    caps0_3 = caps2_3;
-    caps0_4 = caps2_4;
-    caps0_5 = caps2_5;
-    caps0_6 = caps2_6;
-    caps0_7 = caps2_7;
-    caps0_8 = caps2_8;
-    caps0_9 = caps2_9;
-    caps0_10 = caps2_10;
-    caps0_11 = caps2_11;
-    caps0_12 = caps2_12;
-    caps0_13 = caps2_13;
-    caps0_14 = caps2_14;
-    caps0_15 = caps2_15;
+    caps0_0 = -1;
+    caps0_1 = -1;
+    caps0_2 = -1;
+    caps0_3 = -1;
+    caps0_4 = -1;
+    caps0_5 = -1;
+    caps0_6 = -1;
+    caps0_7 = -1;
+    caps0_8 = -1;
+    caps0_9 = -1;
+    caps0_10 = -1;
+    caps0_11 = -1;
+    caps0_12 = -1;
+    caps0_13 = -1;
+    caps0_14 = -1;
+    caps0_15 = -1;
     goto st1;
     }  /* end state */
 
@@ -1353,21 +1353,21 @@ st5: {  /* DFA node {21,1} 5 */
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -1375,21 +1375,21 @@ st5: {  /* DFA node {21,1} 5 */
         }
     case 39: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -1397,38 +1397,38 @@ st5: {  /* DFA node {21,1} 5 */
         }
     case 45: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps0_6 = i - 1;
         caps1_10 = i - 1;
@@ -1441,22 +1441,22 @@ st5: {  /* DFA node {21,1} 5 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st29;
@@ -1464,21 +1464,21 @@ st5: {  /* DFA node {21,1} 5 */
         }
     case 93: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_8 = i - 1;
         goto st6;
@@ -1486,21 +1486,21 @@ st5: {  /* DFA node {21,1} 5 */
         }
     case 123: {
         /* transfer caps from row 1 to row 0 */
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -1508,21 +1508,21 @@ st5: {  /* DFA node {21,1} 5 */
         }
     case 125: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -1533,22 +1533,22 @@ st5: {  /* DFA node {21,1} 5 */
     }
     /* (c >= 0 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c == 92) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 1 to row 0 */
-    caps0_0 = caps1_0;
-    caps0_1 = caps1_1;
-    caps0_2 = caps1_2;
-    caps0_3 = caps1_3;
-    caps0_4 = caps1_4;
-    caps0_5 = caps1_5;
-    caps0_6 = caps1_6;
-    caps0_7 = caps1_7;
-    caps0_8 = caps1_8;
-    caps0_9 = caps1_9;
-    caps0_10 = caps1_10;
-    caps0_11 = caps1_11;
-    caps0_12 = caps1_12;
-    caps0_13 = caps1_13;
-    caps0_14 = caps1_14;
-    caps0_15 = caps1_15;
+    caps0_0 = -1;
+    caps0_1 = -1;
+    caps0_2 = -1;
+    caps0_3 = -1;
+    caps0_4 = -1;
+    caps0_5 = -1;
+    caps0_6 = -1;
+    caps0_7 = -1;
+    caps0_8 = -1;
+    caps0_9 = -1;
+    caps0_10 = -1;
+    caps0_11 = -1;
+    caps0_12 = -1;
+    caps0_13 = -1;
+    caps0_14 = -1;
+    caps0_15 = -1;
     goto st1;
     }  /* end state */
 
@@ -1571,21 +1571,21 @@ st6: {  /* DFA node {41,1} 6 */
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -1593,21 +1593,21 @@ st6: {  /* DFA node {41,1} 6 */
         }
     case 39: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -1615,38 +1615,38 @@ st6: {  /* DFA node {41,1} 6 */
         }
     case 45: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps0_6 = i - 1;
         caps1_10 = i - 1;
@@ -1659,21 +1659,21 @@ st6: {  /* DFA node {41,1} 6 */
         }
     case 91: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_4 = i - 1;
         goto st5;
@@ -1681,22 +1681,22 @@ st6: {  /* DFA node {41,1} 6 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st31;
@@ -1704,21 +1704,21 @@ st6: {  /* DFA node {41,1} 6 */
         }
     case 123: {
         /* transfer caps from row 1 to row 0 */
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -1726,21 +1726,21 @@ st6: {  /* DFA node {41,1} 6 */
         }
     case 125: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -1751,22 +1751,22 @@ st6: {  /* DFA node {41,1} 6 */
     }
     /* (c >= 0 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c == 92) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 1 to row 0 */
-    caps0_0 = caps1_0;
-    caps0_1 = caps1_1;
-    caps0_2 = caps1_2;
-    caps0_3 = caps1_3;
-    caps0_4 = caps1_4;
-    caps0_5 = caps1_5;
-    caps0_6 = caps1_6;
-    caps0_7 = caps1_7;
-    caps0_8 = caps1_8;
-    caps0_9 = caps1_9;
-    caps0_10 = caps1_10;
-    caps0_11 = caps1_11;
-    caps0_12 = caps1_12;
-    caps0_13 = caps1_13;
-    caps0_14 = caps1_14;
-    caps0_15 = caps1_15;
+    caps0_0 = -1;
+    caps0_1 = -1;
+    caps0_2 = -1;
+    caps0_3 = -1;
+    caps0_4 = -1;
+    caps0_5 = -1;
+    caps0_6 = -1;
+    caps0_7 = -1;
+    caps0_8 = -1;
+    caps0_9 = -1;
+    caps0_10 = -1;
+    caps0_11 = -1;
+    caps0_12 = -1;
+    caps0_13 = -1;
+    caps0_14 = -1;
+    caps0_15 = -1;
     goto st1;
     }  /* end state */
 
@@ -1784,7 +1784,6 @@ st7: {  /* DFA node {11,1} 7 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_0;
-    matched_1 = caps0_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -1799,7 +1798,6 @@ st8: {  /* DFA node {16,1} 8 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_2;
-    matched_1 = caps0_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -1819,43 +1817,43 @@ st9: {  /* DFA node {65,1} 9 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -1863,22 +1861,22 @@ st9: {  /* DFA node {65,1} 9 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -1886,38 +1884,38 @@ st9: {  /* DFA node {65,1} 9 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -1926,22 +1924,22 @@ st9: {  /* DFA node {65,1} 9 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -1953,22 +1951,22 @@ st9: {  /* DFA node {65,1} 9 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -1976,22 +1974,22 @@ st9: {  /* DFA node {65,1} 9 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -1999,22 +1997,22 @@ st9: {  /* DFA node {65,1} 9 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -2041,7 +2039,6 @@ st10: {  /* DFA node {67,59,1} 10 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_12;
-    matched_1 = caps0_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -2061,43 +2058,43 @@ st11: {  /* DFA node {65,72,1} 11 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -2105,22 +2102,22 @@ st11: {  /* DFA node {65,72,1} 11 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -2128,38 +2125,38 @@ st11: {  /* DFA node {65,72,1} 11 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -2168,22 +2165,22 @@ st11: {  /* DFA node {65,72,1} 11 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -2195,22 +2192,22 @@ st11: {  /* DFA node {65,72,1} 11 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -2218,22 +2215,22 @@ st11: {  /* DFA node {65,72,1} 11 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -2241,22 +2238,22 @@ st11: {  /* DFA node {65,72,1} 11 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -2288,59 +2285,59 @@ st12: {  /* DFA node {65,30,50,1} 12 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -2348,38 +2345,38 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         }
     case 39: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -2387,38 +2384,38 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         }
     case 45: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* transfer caps from row 3 to row 5 */
-        caps5_0 = caps3_0;
-        caps5_1 = caps3_1;
-        caps5_2 = caps3_2;
-        caps5_3 = caps3_3;
-        caps5_4 = caps3_4;
-        caps5_5 = caps3_5;
-        caps5_6 = caps3_6;
-        caps5_7 = caps3_7;
-        caps5_8 = caps3_8;
-        caps5_9 = caps3_9;
-        caps5_10 = caps3_10;
-        caps5_11 = caps3_11;
-        caps5_12 = caps3_12;
-        caps5_13 = caps3_13;
-        caps5_14 = caps3_14;
-        caps5_15 = caps3_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_10 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* capture stores */
         caps3_6 = i - 1;
         caps4_10 = i - 1;
@@ -2427,38 +2424,38 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         }
     case 91: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -2466,59 +2463,59 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         }
     case 92: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -2526,38 +2523,38 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         }
     case 123: {
         /* transfer caps from row 3 to row 1 */
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -2565,38 +2562,38 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         }
     case 125: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -2607,22 +2604,22 @@ st12: {  /* DFA node {65,30,50,1} 12 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 1 */
-    caps1_0 = caps3_0;
-    caps1_1 = caps3_1;
-    caps1_2 = caps3_2;
-    caps1_3 = caps3_3;
-    caps1_4 = caps3_4;
-    caps1_5 = caps3_5;
-    caps1_6 = caps3_6;
-    caps1_7 = caps3_7;
-    caps1_8 = caps3_8;
-    caps1_9 = caps3_9;
-    caps1_10 = caps3_10;
-    caps1_11 = caps3_11;
-    caps1_12 = caps3_12;
-    caps1_13 = caps3_13;
-    caps1_14 = caps3_14;
-    caps1_15 = caps3_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -2645,42 +2642,42 @@ st13: {  /* DFA node {65,21,1} 13 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -2688,21 +2685,21 @@ st13: {  /* DFA node {65,21,1} 13 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -2710,38 +2707,38 @@ st13: {  /* DFA node {65,21,1} 13 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -2754,22 +2751,22 @@ st13: {  /* DFA node {65,21,1} 13 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st46;
@@ -2777,42 +2774,42 @@ st13: {  /* DFA node {65,21,1} 13 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -2820,21 +2817,21 @@ st13: {  /* DFA node {65,21,1} 13 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -2842,21 +2839,21 @@ st13: {  /* DFA node {65,21,1} 13 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -2867,22 +2864,22 @@ st13: {  /* DFA node {65,21,1} 13 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -2905,43 +2902,43 @@ st14: {  /* DFA node {62,1} 14 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st48;
@@ -2949,22 +2946,22 @@ st14: {  /* DFA node {62,1} 14 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st49;
@@ -2972,38 +2969,38 @@ st14: {  /* DFA node {62,1} 14 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -3012,22 +3009,22 @@ st14: {  /* DFA node {62,1} 14 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st51;
@@ -3035,22 +3032,22 @@ st14: {  /* DFA node {62,1} 14 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st52;
@@ -3058,22 +3055,22 @@ st14: {  /* DFA node {62,1} 14 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st53;
@@ -3081,22 +3078,22 @@ st14: {  /* DFA node {62,1} 14 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st54;
@@ -3128,42 +3125,42 @@ st15: {  /* DFA node {65,41,1} 15 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -3171,21 +3168,21 @@ st15: {  /* DFA node {65,41,1} 15 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -3193,38 +3190,38 @@ st15: {  /* DFA node {65,41,1} 15 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -3237,21 +3234,21 @@ st15: {  /* DFA node {65,41,1} 15 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -3259,43 +3256,43 @@ st15: {  /* DFA node {65,41,1} 15 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st56;
@@ -3303,21 +3300,21 @@ st15: {  /* DFA node {65,41,1} 15 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -3325,21 +3322,21 @@ st15: {  /* DFA node {65,41,1} 15 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -3350,22 +3347,22 @@ st15: {  /* DFA node {65,41,1} 15 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -3383,7 +3380,6 @@ st16: {  /* DFA node {65,11,1} 16 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_0;
-    matched_1 = caps1_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -3409,7 +3405,6 @@ st17: {  /* DFA node {65,16,1} 17 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_2;
-    matched_1 = caps1_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -3440,43 +3435,43 @@ st18: {  /* DFA node {78,1} 18 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -3484,22 +3479,22 @@ st18: {  /* DFA node {78,1} 18 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -3507,38 +3502,38 @@ st18: {  /* DFA node {78,1} 18 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -3547,22 +3542,22 @@ st18: {  /* DFA node {78,1} 18 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -3574,22 +3569,22 @@ st18: {  /* DFA node {78,1} 18 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -3597,22 +3592,22 @@ st18: {  /* DFA node {78,1} 18 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -3620,22 +3615,22 @@ st18: {  /* DFA node {78,1} 18 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -3667,43 +3662,43 @@ st19: {  /* DFA node {78,59,1} 19 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -3711,22 +3706,22 @@ st19: {  /* DFA node {78,59,1} 19 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -3734,38 +3729,38 @@ st19: {  /* DFA node {78,59,1} 19 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -3774,22 +3769,22 @@ st19: {  /* DFA node {78,59,1} 19 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -3801,22 +3796,22 @@ st19: {  /* DFA node {78,59,1} 19 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -3824,22 +3819,22 @@ st19: {  /* DFA node {78,59,1} 19 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -3847,22 +3842,22 @@ st19: {  /* DFA node {78,59,1} 19 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -3889,7 +3884,6 @@ st20: {  /* DFA node {80,72,1} 20 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_14;
-    matched_1 = caps0_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -3909,59 +3903,59 @@ st21: {  /* DFA node {78,30,50,1} 21 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -3969,38 +3963,38 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         }
     case 39: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -4008,38 +4002,38 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         }
     case 45: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* transfer caps from row 3 to row 5 */
-        caps5_0 = caps3_0;
-        caps5_1 = caps3_1;
-        caps5_2 = caps3_2;
-        caps5_3 = caps3_3;
-        caps5_4 = caps3_4;
-        caps5_5 = caps3_5;
-        caps5_6 = caps3_6;
-        caps5_7 = caps3_7;
-        caps5_8 = caps3_8;
-        caps5_9 = caps3_9;
-        caps5_10 = caps3_10;
-        caps5_11 = caps3_11;
-        caps5_12 = caps3_12;
-        caps5_13 = caps3_13;
-        caps5_14 = caps3_14;
-        caps5_15 = caps3_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_10 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* capture stores */
         caps3_6 = i - 1;
         caps4_10 = i - 1;
@@ -4048,38 +4042,38 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         }
     case 91: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -4087,59 +4081,59 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         }
     case 92: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -4147,38 +4141,38 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         }
     case 123: {
         /* transfer caps from row 3 to row 1 */
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -4186,38 +4180,38 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         }
     case 125: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -4228,22 +4222,22 @@ st21: {  /* DFA node {78,30,50,1} 21 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 1 */
-    caps1_0 = caps3_0;
-    caps1_1 = caps3_1;
-    caps1_2 = caps3_2;
-    caps1_3 = caps3_3;
-    caps1_4 = caps3_4;
-    caps1_5 = caps3_5;
-    caps1_6 = caps3_6;
-    caps1_7 = caps3_7;
-    caps1_8 = caps3_8;
-    caps1_9 = caps3_9;
-    caps1_10 = caps3_10;
-    caps1_11 = caps3_11;
-    caps1_12 = caps3_12;
-    caps1_13 = caps3_13;
-    caps1_14 = caps3_14;
-    caps1_15 = caps3_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -4266,42 +4260,42 @@ st22: {  /* DFA node {78,21,1} 22 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -4309,21 +4303,21 @@ st22: {  /* DFA node {78,21,1} 22 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -4331,38 +4325,38 @@ st22: {  /* DFA node {78,21,1} 22 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -4375,22 +4369,22 @@ st22: {  /* DFA node {78,21,1} 22 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st72;
@@ -4398,42 +4392,42 @@ st22: {  /* DFA node {78,21,1} 22 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -4441,21 +4435,21 @@ st22: {  /* DFA node {78,21,1} 22 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -4463,21 +4457,21 @@ st22: {  /* DFA node {78,21,1} 22 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -4488,22 +4482,22 @@ st22: {  /* DFA node {78,21,1} 22 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -4526,43 +4520,43 @@ st23: {  /* DFA node {75,1} 23 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st74;
@@ -4570,22 +4564,22 @@ st23: {  /* DFA node {75,1} 23 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st75;
@@ -4593,38 +4587,38 @@ st23: {  /* DFA node {75,1} 23 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -4633,22 +4627,22 @@ st23: {  /* DFA node {75,1} 23 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st77;
@@ -4656,22 +4650,22 @@ st23: {  /* DFA node {75,1} 23 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st78;
@@ -4679,22 +4673,22 @@ st23: {  /* DFA node {75,1} 23 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st79;
@@ -4702,22 +4696,22 @@ st23: {  /* DFA node {75,1} 23 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st80;
@@ -4749,42 +4743,42 @@ st24: {  /* DFA node {78,41,1} 24 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -4792,21 +4786,21 @@ st24: {  /* DFA node {78,41,1} 24 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -4814,38 +4808,38 @@ st24: {  /* DFA node {78,41,1} 24 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -4858,21 +4852,21 @@ st24: {  /* DFA node {78,41,1} 24 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -4880,43 +4874,43 @@ st24: {  /* DFA node {78,41,1} 24 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st82;
@@ -4924,21 +4918,21 @@ st24: {  /* DFA node {78,41,1} 24 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -4946,21 +4940,21 @@ st24: {  /* DFA node {78,41,1} 24 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -4971,22 +4965,22 @@ st24: {  /* DFA node {78,41,1} 24 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -5004,7 +4998,6 @@ st25: {  /* DFA node {78,11,1} 25 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_0;
-    matched_1 = caps1_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -5030,7 +5023,6 @@ st26: {  /* DFA node {78,16,1} 26 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_2;
-    matched_1 = caps1_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -5056,7 +5048,6 @@ st27: {  /* DFA node {31,51,30,50,1} 27 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -5066,22 +5057,22 @@ st27: {  /* DFA node {31,51,30,50,1} 27 */
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 90) || (c >= 92 && c <= 255)) {
             /* transfer caps from row 1 to row 0 */
-            caps0_0 = caps1_0;
-            caps0_1 = caps1_1;
-            caps0_2 = caps1_2;
-            caps0_3 = caps1_3;
-            caps0_4 = caps1_4;
-            caps0_5 = caps1_5;
-            caps0_6 = caps1_6;
-            caps0_7 = caps1_7;
-            caps0_8 = caps1_8;
-            caps0_9 = caps1_9;
+            caps0_0 = -1;
+            caps0_1 = -1;
+            caps0_2 = -1;
+            caps0_3 = -1;
+            caps0_4 = -1;
+            caps0_5 = -1;
+            caps0_6 = -1;
+            caps0_7 = -1;
+            caps0_8 = -1;
+            caps0_9 = -1;
             caps0_10 = caps1_10;
-            caps0_11 = caps1_11;
-            caps0_12 = caps1_12;
-            caps0_13 = caps1_13;
-            caps0_14 = caps1_14;
-            caps0_15 = caps1_15;
+            caps0_11 = -1;
+            caps0_12 = -1;
+            caps0_13 = -1;
+            caps0_14 = -1;
+            caps0_15 = -1;
             goto st87;
         }
     }
@@ -5101,21 +5092,21 @@ st28: {  /* DFA node {23,1} 28 */
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -5123,21 +5114,21 @@ st28: {  /* DFA node {23,1} 28 */
         }
     case 39: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -5145,38 +5136,38 @@ st28: {  /* DFA node {23,1} 28 */
         }
     case 45: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps0_6 = i - 1;
         caps1_10 = i - 1;
@@ -5189,22 +5180,22 @@ st28: {  /* DFA node {23,1} 28 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st29;
@@ -5212,21 +5203,21 @@ st28: {  /* DFA node {23,1} 28 */
         }
     case 93: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_8 = i - 1;
         goto st6;
@@ -5234,21 +5225,21 @@ st28: {  /* DFA node {23,1} 28 */
         }
     case 123: {
         /* transfer caps from row 1 to row 0 */
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -5256,21 +5247,21 @@ st28: {  /* DFA node {23,1} 28 */
         }
     case 125: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -5281,22 +5272,22 @@ st28: {  /* DFA node {23,1} 28 */
     }
     /* (c >= 0 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c == 92) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 1 to row 0 */
-    caps0_0 = caps1_0;
-    caps0_1 = caps1_1;
-    caps0_2 = caps1_2;
-    caps0_3 = caps1_3;
-    caps0_4 = caps1_4;
-    caps0_5 = caps1_5;
-    caps0_6 = caps1_6;
-    caps0_7 = caps1_7;
-    caps0_8 = caps1_8;
-    caps0_9 = caps1_9;
-    caps0_10 = caps1_10;
-    caps0_11 = caps1_11;
-    caps0_12 = caps1_12;
-    caps0_13 = caps1_13;
-    caps0_14 = caps1_14;
-    caps0_15 = caps1_15;
+    caps0_0 = -1;
+    caps0_1 = -1;
+    caps0_2 = -1;
+    caps0_3 = -1;
+    caps0_4 = -1;
+    caps0_5 = -1;
+    caps0_6 = -1;
+    caps0_7 = -1;
+    caps0_8 = -1;
+    caps0_9 = -1;
+    caps0_10 = -1;
+    caps0_11 = -1;
+    caps0_12 = -1;
+    caps0_13 = -1;
+    caps0_14 = -1;
+    caps0_15 = -1;
     goto st1;
     }  /* end state */
 
@@ -5314,7 +5305,6 @@ st29: {  /* DFA node {25,21,1} 29 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_4;
-    matched_1 = caps0_5;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 2;
@@ -5334,21 +5324,21 @@ st30: {  /* DFA node {43,1} 30 */
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_12 = i - 1;
         goto st2;
@@ -5356,21 +5346,21 @@ st30: {  /* DFA node {43,1} 30 */
         }
     case 39: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_14 = i - 1;
         goto st3;
@@ -5378,38 +5368,38 @@ st30: {  /* DFA node {43,1} 30 */
         }
     case 45: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps0_6 = i - 1;
         caps1_10 = i - 1;
@@ -5422,21 +5412,21 @@ st30: {  /* DFA node {43,1} 30 */
         }
     case 91: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_4 = i - 1;
         goto st5;
@@ -5444,22 +5434,22 @@ st30: {  /* DFA node {43,1} 30 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st31;
@@ -5467,21 +5457,21 @@ st30: {  /* DFA node {43,1} 30 */
         }
     case 123: {
         /* transfer caps from row 1 to row 0 */
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_0 = i - 1;
         goto st7;
@@ -5489,21 +5479,21 @@ st30: {  /* DFA node {43,1} 30 */
         }
     case 125: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         /* capture stores */
         caps0_2 = i - 1;
         goto st8;
@@ -5514,22 +5504,22 @@ st30: {  /* DFA node {43,1} 30 */
     }
     /* (c >= 0 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c == 92) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 1 to row 0 */
-    caps0_0 = caps1_0;
-    caps0_1 = caps1_1;
-    caps0_2 = caps1_2;
-    caps0_3 = caps1_3;
-    caps0_4 = caps1_4;
-    caps0_5 = caps1_5;
-    caps0_6 = caps1_6;
-    caps0_7 = caps1_7;
-    caps0_8 = caps1_8;
-    caps0_9 = caps1_9;
-    caps0_10 = caps1_10;
-    caps0_11 = caps1_11;
-    caps0_12 = caps1_12;
-    caps0_13 = caps1_13;
-    caps0_14 = caps1_14;
-    caps0_15 = caps1_15;
+    caps0_0 = -1;
+    caps0_1 = -1;
+    caps0_2 = -1;
+    caps0_3 = -1;
+    caps0_4 = -1;
+    caps0_5 = -1;
+    caps0_6 = -1;
+    caps0_7 = -1;
+    caps0_8 = -1;
+    caps0_9 = -1;
+    caps0_10 = -1;
+    caps0_11 = -1;
+    caps0_12 = -1;
+    caps0_13 = -1;
+    caps0_14 = -1;
+    caps0_15 = -1;
     goto st1;
     }  /* end state */
 
@@ -5547,7 +5537,6 @@ st31: {  /* DFA node {45,41,1} 31 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_8;
-    matched_1 = caps0_9;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 4;
@@ -5567,43 +5556,43 @@ st35: {  /* DFA node {65,78,1} 35 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -5611,22 +5600,22 @@ st35: {  /* DFA node {65,78,1} 35 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -5634,38 +5623,38 @@ st35: {  /* DFA node {65,78,1} 35 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -5674,22 +5663,22 @@ st35: {  /* DFA node {65,78,1} 35 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -5701,22 +5690,22 @@ st35: {  /* DFA node {65,78,1} 35 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -5724,22 +5713,22 @@ st35: {  /* DFA node {65,78,1} 35 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -5747,22 +5736,22 @@ st35: {  /* DFA node {65,78,1} 35 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -5789,7 +5778,6 @@ st36: {  /* DFA node {67,78,59,1} 36 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_12;
-    matched_1 = caps0_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -5804,7 +5792,6 @@ st37: {  /* DFA node {65,80,72,1} 37 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_14;
-    matched_1 = caps1_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -5835,59 +5822,59 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
-        caps0_0 = caps4_0;
-        caps0_1 = caps4_1;
-        caps0_2 = caps4_2;
-        caps0_3 = caps4_3;
-        caps0_4 = caps4_4;
-        caps0_5 = caps4_5;
-        caps0_6 = caps4_6;
-        caps0_7 = caps4_7;
-        caps0_8 = caps4_8;
-        caps0_9 = caps4_9;
-        caps0_10 = caps4_10;
-        caps0_11 = caps4_11;
-        caps0_12 = caps4_12;
-        caps0_13 = caps4_13;
-        caps0_14 = caps4_14;
-        caps0_15 = caps4_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -5895,38 +5882,38 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         }
     case 39: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -5934,38 +5921,38 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         }
     case 45: {
         /* transfer caps from row 4 to row 5 */
-        caps5_0 = caps4_0;
-        caps5_1 = caps4_1;
-        caps5_2 = caps4_2;
-        caps5_3 = caps4_3;
-        caps5_4 = caps4_4;
-        caps5_5 = caps4_5;
-        caps5_6 = caps4_6;
-        caps5_7 = caps4_7;
-        caps5_8 = caps4_8;
-        caps5_9 = caps4_9;
-        caps5_11 = caps4_11;
-        caps5_12 = caps4_12;
-        caps5_13 = caps4_13;
-        caps5_14 = caps4_14;
-        caps5_15 = caps4_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* transfer caps from row 4 to row 6 */
-        caps6_0 = caps4_0;
-        caps6_1 = caps4_1;
-        caps6_2 = caps4_2;
-        caps6_3 = caps4_3;
-        caps6_4 = caps4_4;
-        caps6_5 = caps4_5;
-        caps6_6 = caps4_6;
-        caps6_7 = caps4_7;
-        caps6_8 = caps4_8;
-        caps6_9 = caps4_9;
-        caps6_10 = caps4_10;
-        caps6_11 = caps4_11;
-        caps6_12 = caps4_12;
-        caps6_13 = caps4_13;
-        caps6_14 = caps4_14;
-        caps6_15 = caps4_15;
+        caps6_0 = -1;
+        caps6_1 = -1;
+        caps6_2 = -1;
+        caps6_3 = -1;
+        caps6_4 = -1;
+        caps6_5 = -1;
+        caps6_6 = -1;
+        caps6_7 = -1;
+        caps6_8 = -1;
+        caps6_9 = -1;
+        caps6_10 = -1;
+        caps6_11 = -1;
+        caps6_12 = -1;
+        caps6_13 = -1;
+        caps6_14 = -1;
+        caps6_15 = -1;
         /* capture stores */
         caps4_6 = i - 1;
         caps5_10 = i - 1;
@@ -5974,38 +5961,38 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         }
     case 91: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -6013,59 +6000,59 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         }
     case 92: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -6073,38 +6060,38 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         }
     case 123: {
         /* transfer caps from row 4 to row 2 */
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -6112,38 +6099,38 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         }
     case 125: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -6154,22 +6141,22 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 4 to row 2 */
-    caps2_0 = caps4_0;
-    caps2_1 = caps4_1;
-    caps2_2 = caps4_2;
-    caps2_3 = caps4_3;
-    caps2_4 = caps4_4;
-    caps2_5 = caps4_5;
-    caps2_6 = caps4_6;
-    caps2_7 = caps4_7;
-    caps2_8 = caps4_8;
-    caps2_9 = caps4_9;
-    caps2_10 = caps4_10;
-    caps2_11 = caps4_11;
-    caps2_12 = caps4_12;
-    caps2_13 = caps4_13;
-    caps2_14 = caps4_14;
-    caps2_15 = caps4_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -6192,42 +6179,42 @@ st39: {  /* DFA node {65,78,21,1} 39 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -6235,21 +6222,21 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -6257,38 +6244,38 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -6301,22 +6288,22 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         }
     case 91: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_4 = i - 1;
         goto st93;
@@ -6324,42 +6311,42 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -6367,21 +6354,21 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -6389,21 +6376,21 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -6414,22 +6401,22 @@ st39: {  /* DFA node {65,78,21,1} 39 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -6452,43 +6439,43 @@ st40: {  /* DFA node {62,75,1} 40 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st95;
@@ -6496,22 +6483,22 @@ st40: {  /* DFA node {62,75,1} 40 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st96;
@@ -6519,38 +6506,38 @@ st40: {  /* DFA node {62,75,1} 40 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -6559,22 +6546,22 @@ st40: {  /* DFA node {62,75,1} 40 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st98;
@@ -6582,22 +6569,22 @@ st40: {  /* DFA node {62,75,1} 40 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st99;
@@ -6605,22 +6592,22 @@ st40: {  /* DFA node {62,75,1} 40 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st100;
@@ -6628,22 +6615,22 @@ st40: {  /* DFA node {62,75,1} 40 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st101;
@@ -6675,42 +6662,42 @@ st41: {  /* DFA node {65,78,41,1} 41 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -6718,21 +6705,21 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -6740,38 +6727,38 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -6784,21 +6771,21 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -6806,43 +6793,43 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_8 = i - 1;
         goto st103;
@@ -6850,21 +6837,21 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -6872,21 +6859,21 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -6897,22 +6884,22 @@ st41: {  /* DFA node {65,78,41,1} 41 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -6930,7 +6917,6 @@ st42: {  /* DFA node {65,78,11,1} 42 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_0;
-    matched_1 = caps2_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -6959,7 +6945,6 @@ st43: {  /* DFA node {65,78,16,1} 43 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_2;
-    matched_1 = caps2_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -6988,29 +6973,28 @@ st44: {  /* DFA node {65,31,51,30,50,1} 44 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st109;
         }
         if (c == 91) {
@@ -7018,42 +7002,42 @@ st44: {  /* DFA node {65,31,51,30,50,1} 44 */
         }
         if (c == 92) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st111;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st108;
         }
     }
@@ -7073,42 +7057,42 @@ st45: {  /* DFA node {65,23,1} 45 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -7116,21 +7100,21 @@ st45: {  /* DFA node {65,23,1} 45 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -7138,38 +7122,38 @@ st45: {  /* DFA node {65,23,1} 45 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -7182,22 +7166,22 @@ st45: {  /* DFA node {65,23,1} 45 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st46;
@@ -7205,42 +7189,42 @@ st45: {  /* DFA node {65,23,1} 45 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -7248,21 +7232,21 @@ st45: {  /* DFA node {65,23,1} 45 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -7270,21 +7254,21 @@ st45: {  /* DFA node {65,23,1} 45 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -7295,22 +7279,22 @@ st45: {  /* DFA node {65,23,1} 45 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -7328,7 +7312,6 @@ st46: {  /* DFA node {65,25,21,1} 46 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_4;
-    matched_1 = caps1_5;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 2;
@@ -7359,43 +7342,43 @@ st47: {  /* DFA node {63,1} 47 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -7403,22 +7386,22 @@ st47: {  /* DFA node {63,1} 47 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -7426,38 +7409,38 @@ st47: {  /* DFA node {63,1} 47 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -7466,22 +7449,22 @@ st47: {  /* DFA node {63,1} 47 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -7493,22 +7476,22 @@ st47: {  /* DFA node {63,1} 47 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -7516,22 +7499,22 @@ st47: {  /* DFA node {63,1} 47 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -7539,22 +7522,22 @@ st47: {  /* DFA node {63,1} 47 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -7586,42 +7569,42 @@ st48: {  /* DFA node {63,59,1} 48 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -7629,21 +7612,21 @@ st48: {  /* DFA node {63,59,1} 48 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -7651,38 +7634,38 @@ st48: {  /* DFA node {63,59,1} 48 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -7691,21 +7674,21 @@ st48: {  /* DFA node {63,59,1} 48 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -7713,42 +7696,42 @@ st48: {  /* DFA node {63,59,1} 48 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -7756,21 +7739,21 @@ st48: {  /* DFA node {63,59,1} 48 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -7778,21 +7761,21 @@ st48: {  /* DFA node {63,59,1} 48 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -7803,22 +7786,22 @@ st48: {  /* DFA node {63,59,1} 48 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -7841,43 +7824,43 @@ st49: {  /* DFA node {63,72,1} 49 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -7885,22 +7868,22 @@ st49: {  /* DFA node {63,72,1} 49 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -7908,38 +7891,38 @@ st49: {  /* DFA node {63,72,1} 49 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -7948,22 +7931,22 @@ st49: {  /* DFA node {63,72,1} 49 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -7975,22 +7958,22 @@ st49: {  /* DFA node {63,72,1} 49 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -7998,22 +7981,22 @@ st49: {  /* DFA node {63,72,1} 49 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -8021,22 +8004,22 @@ st49: {  /* DFA node {63,72,1} 49 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -8068,59 +8051,59 @@ st50: {  /* DFA node {63,30,50,1} 50 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -8128,38 +8111,38 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         }
     case 39: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -8167,38 +8150,38 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         }
     case 45: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* transfer caps from row 3 to row 5 */
-        caps5_0 = caps3_0;
-        caps5_1 = caps3_1;
-        caps5_2 = caps3_2;
-        caps5_3 = caps3_3;
-        caps5_4 = caps3_4;
-        caps5_5 = caps3_5;
-        caps5_6 = caps3_6;
-        caps5_7 = caps3_7;
-        caps5_8 = caps3_8;
-        caps5_9 = caps3_9;
-        caps5_10 = caps3_10;
-        caps5_11 = caps3_11;
-        caps5_12 = caps3_12;
-        caps5_13 = caps3_13;
-        caps5_14 = caps3_14;
-        caps5_15 = caps3_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_10 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* capture stores */
         caps3_6 = i - 1;
         caps4_10 = i - 1;
@@ -8207,38 +8190,38 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         }
     case 91: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -8246,59 +8229,59 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         }
     case 92: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -8306,38 +8289,38 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         }
     case 123: {
         /* transfer caps from row 3 to row 1 */
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -8345,38 +8328,38 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         }
     case 125: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -8387,22 +8370,22 @@ st50: {  /* DFA node {63,30,50,1} 50 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 1 */
-    caps1_0 = caps3_0;
-    caps1_1 = caps3_1;
-    caps1_2 = caps3_2;
-    caps1_3 = caps3_3;
-    caps1_4 = caps3_4;
-    caps1_5 = caps3_5;
-    caps1_6 = caps3_6;
-    caps1_7 = caps3_7;
-    caps1_8 = caps3_8;
-    caps1_9 = caps3_9;
-    caps1_10 = caps3_10;
-    caps1_11 = caps3_11;
-    caps1_12 = caps3_12;
-    caps1_13 = caps3_13;
-    caps1_14 = caps3_14;
-    caps1_15 = caps3_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -8425,42 +8408,42 @@ st51: {  /* DFA node {63,21,1} 51 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -8468,21 +8451,21 @@ st51: {  /* DFA node {63,21,1} 51 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -8490,38 +8473,38 @@ st51: {  /* DFA node {63,21,1} 51 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -8534,22 +8517,22 @@ st51: {  /* DFA node {63,21,1} 51 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st46;
@@ -8557,42 +8540,42 @@ st51: {  /* DFA node {63,21,1} 51 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st15;
@@ -8600,21 +8583,21 @@ st51: {  /* DFA node {63,21,1} 51 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -8622,21 +8605,21 @@ st51: {  /* DFA node {63,21,1} 51 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -8647,22 +8630,22 @@ st51: {  /* DFA node {63,21,1} 51 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -8685,42 +8668,42 @@ st52: {  /* DFA node {63,41,1} 52 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -8728,21 +8711,21 @@ st52: {  /* DFA node {63,41,1} 52 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -8750,38 +8733,38 @@ st52: {  /* DFA node {63,41,1} 52 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -8794,21 +8777,21 @@ st52: {  /* DFA node {63,41,1} 52 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -8816,43 +8799,43 @@ st52: {  /* DFA node {63,41,1} 52 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st56;
@@ -8860,21 +8843,21 @@ st52: {  /* DFA node {63,41,1} 52 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -8882,21 +8865,21 @@ st52: {  /* DFA node {63,41,1} 52 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -8907,22 +8890,22 @@ st52: {  /* DFA node {63,41,1} 52 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -8940,7 +8923,6 @@ st53: {  /* DFA node {63,11,1} 53 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_0;
-    matched_1 = caps1_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -8966,7 +8948,6 @@ st54: {  /* DFA node {63,16,1} 54 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_2;
-    matched_1 = caps1_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -8997,42 +8978,42 @@ st55: {  /* DFA node {65,43,1} 55 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st10;
@@ -9040,21 +9021,21 @@ st55: {  /* DFA node {65,43,1} 55 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st11;
@@ -9062,38 +9043,38 @@ st55: {  /* DFA node {65,43,1} 55 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -9106,21 +9087,21 @@ st55: {  /* DFA node {65,43,1} 55 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st13;
@@ -9128,43 +9109,43 @@ st55: {  /* DFA node {65,43,1} 55 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st14;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st56;
@@ -9172,21 +9153,21 @@ st55: {  /* DFA node {65,43,1} 55 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st16;
@@ -9194,21 +9175,21 @@ st55: {  /* DFA node {65,43,1} 55 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st17;
@@ -9219,22 +9200,22 @@ st55: {  /* DFA node {65,43,1} 55 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st9;
     }  /* end state */
 
@@ -9252,7 +9233,6 @@ st56: {  /* DFA node {65,45,41,1} 56 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_8;
-    matched_1 = caps1_9;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 4;
@@ -9311,7 +9291,6 @@ st58: {  /* DFA node {67} 58 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_12;
-    matched_1 = caps0_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -9352,43 +9331,43 @@ st60: {  /* DFA node {78,65,1} 60 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -9396,22 +9375,22 @@ st60: {  /* DFA node {78,65,1} 60 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -9419,38 +9398,38 @@ st60: {  /* DFA node {78,65,1} 60 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -9459,22 +9438,22 @@ st60: {  /* DFA node {78,65,1} 60 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -9486,22 +9465,22 @@ st60: {  /* DFA node {78,65,1} 60 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -9509,22 +9488,22 @@ st60: {  /* DFA node {78,65,1} 60 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -9532,22 +9511,22 @@ st60: {  /* DFA node {78,65,1} 60 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -9574,7 +9553,6 @@ st61: {  /* DFA node {78,67,59,1} 61 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_12;
-    matched_1 = caps1_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -9600,7 +9578,6 @@ st62: {  /* DFA node {80,65,72,1} 62 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_14;
-    matched_1 = caps0_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -9620,59 +9597,59 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
-        caps0_0 = caps4_0;
-        caps0_1 = caps4_1;
-        caps0_2 = caps4_2;
-        caps0_3 = caps4_3;
-        caps0_4 = caps4_4;
-        caps0_5 = caps4_5;
-        caps0_6 = caps4_6;
-        caps0_7 = caps4_7;
-        caps0_8 = caps4_8;
-        caps0_9 = caps4_9;
-        caps0_10 = caps4_10;
-        caps0_11 = caps4_11;
-        caps0_12 = caps4_12;
-        caps0_13 = caps4_13;
-        caps0_14 = caps4_14;
-        caps0_15 = caps4_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -9680,38 +9657,38 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         }
     case 39: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -9719,38 +9696,38 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         }
     case 45: {
         /* transfer caps from row 4 to row 5 */
-        caps5_0 = caps4_0;
-        caps5_1 = caps4_1;
-        caps5_2 = caps4_2;
-        caps5_3 = caps4_3;
-        caps5_4 = caps4_4;
-        caps5_5 = caps4_5;
-        caps5_6 = caps4_6;
-        caps5_7 = caps4_7;
-        caps5_8 = caps4_8;
-        caps5_9 = caps4_9;
-        caps5_11 = caps4_11;
-        caps5_12 = caps4_12;
-        caps5_13 = caps4_13;
-        caps5_14 = caps4_14;
-        caps5_15 = caps4_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* transfer caps from row 4 to row 6 */
-        caps6_0 = caps4_0;
-        caps6_1 = caps4_1;
-        caps6_2 = caps4_2;
-        caps6_3 = caps4_3;
-        caps6_4 = caps4_4;
-        caps6_5 = caps4_5;
-        caps6_6 = caps4_6;
-        caps6_7 = caps4_7;
-        caps6_8 = caps4_8;
-        caps6_9 = caps4_9;
-        caps6_10 = caps4_10;
-        caps6_11 = caps4_11;
-        caps6_12 = caps4_12;
-        caps6_13 = caps4_13;
-        caps6_14 = caps4_14;
-        caps6_15 = caps4_15;
+        caps6_0 = -1;
+        caps6_1 = -1;
+        caps6_2 = -1;
+        caps6_3 = -1;
+        caps6_4 = -1;
+        caps6_5 = -1;
+        caps6_6 = -1;
+        caps6_7 = -1;
+        caps6_8 = -1;
+        caps6_9 = -1;
+        caps6_10 = -1;
+        caps6_11 = -1;
+        caps6_12 = -1;
+        caps6_13 = -1;
+        caps6_14 = -1;
+        caps6_15 = -1;
         /* capture stores */
         caps4_6 = i - 1;
         caps5_10 = i - 1;
@@ -9759,38 +9736,38 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         }
     case 91: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -9798,59 +9775,59 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         }
     case 92: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -9858,38 +9835,38 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         }
     case 123: {
         /* transfer caps from row 4 to row 2 */
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -9897,38 +9874,38 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         }
     case 125: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -9939,22 +9916,22 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 4 to row 2 */
-    caps2_0 = caps4_0;
-    caps2_1 = caps4_1;
-    caps2_2 = caps4_2;
-    caps2_3 = caps4_3;
-    caps2_4 = caps4_4;
-    caps2_5 = caps4_5;
-    caps2_6 = caps4_6;
-    caps2_7 = caps4_7;
-    caps2_8 = caps4_8;
-    caps2_9 = caps4_9;
-    caps2_10 = caps4_10;
-    caps2_11 = caps4_11;
-    caps2_12 = caps4_12;
-    caps2_13 = caps4_13;
-    caps2_14 = caps4_14;
-    caps2_15 = caps4_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -9977,42 +9954,42 @@ st64: {  /* DFA node {78,65,21,1} 64 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -10020,21 +9997,21 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -10042,38 +10019,38 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -10086,22 +10063,22 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         }
     case 91: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_4 = i - 1;
         goto st115;
@@ -10109,42 +10086,42 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -10152,21 +10129,21 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -10174,21 +10151,21 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -10199,22 +10176,22 @@ st64: {  /* DFA node {78,65,21,1} 64 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -10237,43 +10214,43 @@ st65: {  /* DFA node {75,62,1} 65 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st117;
@@ -10281,22 +10258,22 @@ st65: {  /* DFA node {75,62,1} 65 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st118;
@@ -10304,38 +10281,38 @@ st65: {  /* DFA node {75,62,1} 65 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -10344,22 +10321,22 @@ st65: {  /* DFA node {75,62,1} 65 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st120;
@@ -10367,22 +10344,22 @@ st65: {  /* DFA node {75,62,1} 65 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st121;
@@ -10390,22 +10367,22 @@ st65: {  /* DFA node {75,62,1} 65 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st122;
@@ -10413,22 +10390,22 @@ st65: {  /* DFA node {75,62,1} 65 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st123;
@@ -10460,42 +10437,42 @@ st66: {  /* DFA node {78,65,41,1} 66 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -10503,21 +10480,21 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -10525,38 +10502,38 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -10569,21 +10546,21 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -10591,43 +10568,43 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_8 = i - 1;
         goto st125;
@@ -10635,21 +10612,21 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -10657,21 +10634,21 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -10682,22 +10659,22 @@ st66: {  /* DFA node {78,65,41,1} 66 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -10715,7 +10692,6 @@ st67: {  /* DFA node {78,65,11,1} 67 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_0;
-    matched_1 = caps2_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -10744,7 +10720,6 @@ st68: {  /* DFA node {78,65,16,1} 68 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_2;
-    matched_1 = caps2_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -10773,29 +10748,28 @@ st70: {  /* DFA node {78,31,51,30,50,1} 70 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 39) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st131;
         }
         if (c == 91) {
@@ -10803,42 +10777,42 @@ st70: {  /* DFA node {78,31,51,30,50,1} 70 */
         }
         if (c == 92) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st133;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 38) || (c >= 40 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st130;
         }
     }
@@ -10858,42 +10832,42 @@ st71: {  /* DFA node {78,23,1} 71 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -10901,21 +10875,21 @@ st71: {  /* DFA node {78,23,1} 71 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -10923,38 +10897,38 @@ st71: {  /* DFA node {78,23,1} 71 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -10967,22 +10941,22 @@ st71: {  /* DFA node {78,23,1} 71 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st72;
@@ -10990,42 +10964,42 @@ st71: {  /* DFA node {78,23,1} 71 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -11033,21 +11007,21 @@ st71: {  /* DFA node {78,23,1} 71 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -11055,21 +11029,21 @@ st71: {  /* DFA node {78,23,1} 71 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -11080,22 +11054,22 @@ st71: {  /* DFA node {78,23,1} 71 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -11113,7 +11087,6 @@ st72: {  /* DFA node {78,25,21,1} 72 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_4;
-    matched_1 = caps1_5;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 2;
@@ -11144,43 +11117,43 @@ st73: {  /* DFA node {76,1} 73 */
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
-        caps0_0 = caps1_0;
-        caps0_1 = caps1_1;
-        caps0_2 = caps1_2;
-        caps0_3 = caps1_3;
-        caps0_4 = caps1_4;
-        caps0_5 = caps1_5;
-        caps0_6 = caps1_6;
-        caps0_7 = caps1_7;
-        caps0_8 = caps1_8;
-        caps0_9 = caps1_9;
-        caps0_10 = caps1_10;
-        caps0_11 = caps1_11;
-        caps0_12 = caps1_12;
-        caps0_13 = caps1_13;
-        caps0_14 = caps1_14;
-        caps0_15 = caps1_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -11188,22 +11161,22 @@ st73: {  /* DFA node {76,1} 73 */
         }
     case 39: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -11211,38 +11184,38 @@ st73: {  /* DFA node {76,1} 73 */
         }
     case 45: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 1 to row 3 */
-        caps3_0 = caps1_0;
-        caps3_1 = caps1_1;
-        caps3_2 = caps1_2;
-        caps3_3 = caps1_3;
-        caps3_4 = caps1_4;
-        caps3_5 = caps1_5;
-        caps3_6 = caps1_6;
-        caps3_7 = caps1_7;
-        caps3_8 = caps1_8;
-        caps3_9 = caps1_9;
-        caps3_10 = caps1_10;
-        caps3_11 = caps1_11;
-        caps3_12 = caps1_12;
-        caps3_13 = caps1_13;
-        caps3_14 = caps1_14;
-        caps3_15 = caps1_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -11251,22 +11224,22 @@ st73: {  /* DFA node {76,1} 73 */
         }
     case 91: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -11278,22 +11251,22 @@ st73: {  /* DFA node {76,1} 73 */
         }
     case 93: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -11301,22 +11274,22 @@ st73: {  /* DFA node {76,1} 73 */
         }
     case 123: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -11324,22 +11297,22 @@ st73: {  /* DFA node {76,1} 73 */
         }
     case 125: {
         /* transfer caps from row 1 to row 2 */
-        caps2_0 = caps1_0;
-        caps2_1 = caps1_1;
-        caps2_2 = caps1_2;
-        caps2_3 = caps1_3;
-        caps2_4 = caps1_4;
-        caps2_5 = caps1_5;
-        caps2_6 = caps1_6;
-        caps2_7 = caps1_7;
-        caps2_8 = caps1_8;
-        caps2_9 = caps1_9;
-        caps2_10 = caps1_10;
-        caps2_11 = caps1_11;
-        caps2_12 = caps1_12;
-        caps2_13 = caps1_13;
-        caps2_14 = caps1_14;
-        caps2_15 = caps1_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -11371,43 +11344,43 @@ st74: {  /* DFA node {76,59,1} 74 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -11415,22 +11388,22 @@ st74: {  /* DFA node {76,59,1} 74 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -11438,38 +11411,38 @@ st74: {  /* DFA node {76,59,1} 74 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -11478,22 +11451,22 @@ st74: {  /* DFA node {76,59,1} 74 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -11505,22 +11478,22 @@ st74: {  /* DFA node {76,59,1} 74 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -11528,22 +11501,22 @@ st74: {  /* DFA node {76,59,1} 74 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -11551,22 +11524,22 @@ st74: {  /* DFA node {76,59,1} 74 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -11598,42 +11571,42 @@ st75: {  /* DFA node {76,72,1} 75 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -11641,21 +11614,21 @@ st75: {  /* DFA node {76,72,1} 75 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -11663,38 +11636,38 @@ st75: {  /* DFA node {76,72,1} 75 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -11703,21 +11676,21 @@ st75: {  /* DFA node {76,72,1} 75 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -11725,42 +11698,42 @@ st75: {  /* DFA node {76,72,1} 75 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -11768,21 +11741,21 @@ st75: {  /* DFA node {76,72,1} 75 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -11790,21 +11763,21 @@ st75: {  /* DFA node {76,72,1} 75 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -11815,22 +11788,22 @@ st75: {  /* DFA node {76,72,1} 75 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -11853,59 +11826,59 @@ st76: {  /* DFA node {76,30,50,1} 76 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -11913,38 +11886,38 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         }
     case 39: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -11952,38 +11925,38 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         }
     case 45: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* transfer caps from row 3 to row 5 */
-        caps5_0 = caps3_0;
-        caps5_1 = caps3_1;
-        caps5_2 = caps3_2;
-        caps5_3 = caps3_3;
-        caps5_4 = caps3_4;
-        caps5_5 = caps3_5;
-        caps5_6 = caps3_6;
-        caps5_7 = caps3_7;
-        caps5_8 = caps3_8;
-        caps5_9 = caps3_9;
-        caps5_10 = caps3_10;
-        caps5_11 = caps3_11;
-        caps5_12 = caps3_12;
-        caps5_13 = caps3_13;
-        caps5_14 = caps3_14;
-        caps5_15 = caps3_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_10 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* capture stores */
         caps3_6 = i - 1;
         caps4_10 = i - 1;
@@ -11992,38 +11965,38 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         }
     case 91: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -12031,59 +12004,59 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         }
     case 92: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -12091,38 +12064,38 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         }
     case 123: {
         /* transfer caps from row 3 to row 1 */
-        caps1_1 = caps3_1;
-        caps1_2 = caps3_2;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -12130,38 +12103,38 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         }
     case 125: {
         /* transfer caps from row 3 to row 1 */
-        caps1_0 = caps3_0;
-        caps1_1 = caps3_1;
-        caps1_3 = caps3_3;
-        caps1_4 = caps3_4;
-        caps1_5 = caps3_5;
-        caps1_6 = caps3_6;
-        caps1_7 = caps3_7;
-        caps1_8 = caps3_8;
-        caps1_9 = caps3_9;
-        caps1_10 = caps3_10;
-        caps1_11 = caps3_11;
-        caps1_12 = caps3_12;
-        caps1_13 = caps3_13;
-        caps1_14 = caps3_14;
-        caps1_15 = caps3_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -12172,22 +12145,22 @@ st76: {  /* DFA node {76,30,50,1} 76 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 1 */
-    caps1_0 = caps3_0;
-    caps1_1 = caps3_1;
-    caps1_2 = caps3_2;
-    caps1_3 = caps3_3;
-    caps1_4 = caps3_4;
-    caps1_5 = caps3_5;
-    caps1_6 = caps3_6;
-    caps1_7 = caps3_7;
-    caps1_8 = caps3_8;
-    caps1_9 = caps3_9;
-    caps1_10 = caps3_10;
-    caps1_11 = caps3_11;
-    caps1_12 = caps3_12;
-    caps1_13 = caps3_13;
-    caps1_14 = caps3_14;
-    caps1_15 = caps3_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -12210,42 +12183,42 @@ st77: {  /* DFA node {76,21,1} 77 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -12253,21 +12226,21 @@ st77: {  /* DFA node {76,21,1} 77 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -12275,38 +12248,38 @@ st77: {  /* DFA node {76,21,1} 77 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -12319,22 +12292,22 @@ st77: {  /* DFA node {76,21,1} 77 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st72;
@@ -12342,42 +12315,42 @@ st77: {  /* DFA node {76,21,1} 77 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_8 = i - 1;
         goto st24;
@@ -12385,21 +12358,21 @@ st77: {  /* DFA node {76,21,1} 77 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -12407,21 +12380,21 @@ st77: {  /* DFA node {76,21,1} 77 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -12432,22 +12405,22 @@ st77: {  /* DFA node {76,21,1} 77 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -12470,42 +12443,42 @@ st78: {  /* DFA node {76,41,1} 78 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -12513,21 +12486,21 @@ st78: {  /* DFA node {76,41,1} 78 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -12535,38 +12508,38 @@ st78: {  /* DFA node {76,41,1} 78 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -12579,21 +12552,21 @@ st78: {  /* DFA node {76,41,1} 78 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -12601,43 +12574,43 @@ st78: {  /* DFA node {76,41,1} 78 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st82;
@@ -12645,21 +12618,21 @@ st78: {  /* DFA node {76,41,1} 78 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -12667,21 +12640,21 @@ st78: {  /* DFA node {76,41,1} 78 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -12692,22 +12665,22 @@ st78: {  /* DFA node {76,41,1} 78 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -12725,7 +12698,6 @@ st79: {  /* DFA node {76,11,1} 79 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_0;
-    matched_1 = caps1_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -12751,7 +12723,6 @@ st80: {  /* DFA node {76,16,1} 80 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_2;
-    matched_1 = caps1_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -12782,42 +12753,42 @@ st81: {  /* DFA node {78,43,1} 81 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_12 = i - 1;
         goto st19;
@@ -12825,21 +12796,21 @@ st81: {  /* DFA node {78,43,1} 81 */
         }
     case 39: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_14 = i - 1;
         goto st20;
@@ -12847,38 +12818,38 @@ st81: {  /* DFA node {78,43,1} 81 */
         }
     case 45: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps1_6 = i - 1;
         caps2_10 = i - 1;
@@ -12891,21 +12862,21 @@ st81: {  /* DFA node {78,43,1} 81 */
         }
     case 91: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_4 = i - 1;
         goto st22;
@@ -12913,43 +12884,43 @@ st81: {  /* DFA node {78,43,1} 81 */
         }
     case 92: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         goto st23;
         break;
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st82;
@@ -12957,21 +12928,21 @@ st81: {  /* DFA node {78,43,1} 81 */
         }
     case 123: {
         /* transfer caps from row 2 to row 1 */
-        caps1_1 = caps2_1;
-        caps1_2 = caps2_2;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_1 = -1;
+        caps1_2 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_0 = i - 1;
         goto st25;
@@ -12979,21 +12950,21 @@ st81: {  /* DFA node {78,43,1} 81 */
         }
     case 125: {
         /* transfer caps from row 2 to row 1 */
-        caps1_0 = caps2_0;
-        caps1_1 = caps2_1;
-        caps1_3 = caps2_3;
-        caps1_4 = caps2_4;
-        caps1_5 = caps2_5;
-        caps1_6 = caps2_6;
-        caps1_7 = caps2_7;
-        caps1_8 = caps2_8;
-        caps1_9 = caps2_9;
-        caps1_10 = caps2_10;
-        caps1_11 = caps2_11;
-        caps1_12 = caps2_12;
-        caps1_13 = caps2_13;
-        caps1_14 = caps2_14;
-        caps1_15 = caps2_15;
+        caps1_0 = -1;
+        caps1_1 = -1;
+        caps1_3 = -1;
+        caps1_4 = -1;
+        caps1_5 = -1;
+        caps1_6 = -1;
+        caps1_7 = -1;
+        caps1_8 = -1;
+        caps1_9 = -1;
+        caps1_10 = -1;
+        caps1_11 = -1;
+        caps1_12 = -1;
+        caps1_13 = -1;
+        caps1_14 = -1;
+        caps1_15 = -1;
         /* capture stores */
         caps1_2 = i - 1;
         goto st26;
@@ -13004,22 +12975,22 @@ st81: {  /* DFA node {78,43,1} 81 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 2 to row 1 */
-    caps1_0 = caps2_0;
-    caps1_1 = caps2_1;
-    caps1_2 = caps2_2;
-    caps1_3 = caps2_3;
-    caps1_4 = caps2_4;
-    caps1_5 = caps2_5;
-    caps1_6 = caps2_6;
-    caps1_7 = caps2_7;
-    caps1_8 = caps2_8;
-    caps1_9 = caps2_9;
-    caps1_10 = caps2_10;
-    caps1_11 = caps2_11;
-    caps1_12 = caps2_12;
-    caps1_13 = caps2_13;
-    caps1_14 = caps2_14;
-    caps1_15 = caps2_15;
+    caps1_0 = -1;
+    caps1_1 = -1;
+    caps1_2 = -1;
+    caps1_3 = -1;
+    caps1_4 = -1;
+    caps1_5 = -1;
+    caps1_6 = -1;
+    caps1_7 = -1;
+    caps1_8 = -1;
+    caps1_9 = -1;
+    caps1_10 = -1;
+    caps1_11 = -1;
+    caps1_12 = -1;
+    caps1_13 = -1;
+    caps1_14 = -1;
+    caps1_15 = -1;
     goto st18;
     }  /* end state */
 
@@ -13037,7 +13008,6 @@ st82: {  /* DFA node {78,45,41,1} 82 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_8;
-    matched_1 = caps1_9;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 4;
@@ -13096,7 +13066,6 @@ st84: {  /* DFA node {80} 84 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_14;
-    matched_1 = caps0_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -13132,7 +13101,6 @@ st87: {  /* DFA node {53} 87 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_10;
-    matched_1 = caps0_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -13152,7 +13120,6 @@ st88: {  /* DFA node {32,53} 88 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -13165,22 +13132,22 @@ st88: {  /* DFA node {32,53} 88 */
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 60) || (c >= 62 && c <= 90) || (c >= 92 && c <= 255)) {
             /* transfer caps from row 1 to row 0 */
-            caps0_0 = caps1_0;
-            caps0_1 = caps1_1;
-            caps0_2 = caps1_2;
-            caps0_3 = caps1_3;
-            caps0_4 = caps1_4;
-            caps0_5 = caps1_5;
-            caps0_6 = caps1_6;
-            caps0_7 = caps1_7;
-            caps0_8 = caps1_8;
-            caps0_9 = caps1_9;
+            caps0_0 = -1;
+            caps0_1 = -1;
+            caps0_2 = -1;
+            caps0_3 = -1;
+            caps0_4 = -1;
+            caps0_5 = -1;
+            caps0_6 = -1;
+            caps0_7 = -1;
+            caps0_8 = -1;
+            caps0_9 = -1;
             caps0_10 = caps1_10;
-            caps0_11 = caps1_11;
-            caps0_12 = caps1_12;
-            caps0_13 = caps1_13;
-            caps0_14 = caps1_14;
-            caps0_15 = caps1_15;
+            caps0_11 = -1;
+            caps0_12 = -1;
+            caps0_13 = -1;
+            caps0_14 = -1;
+            caps0_15 = -1;
             goto st87;
         }
     }
@@ -13195,49 +13162,48 @@ st91: {  /* DFA node {65,78,31,51,30,50,1} 91 */
     i++;
     /* transfer caps from row 3 to matched */
     matched_0 = caps3_10;
-    matched_1 = caps3_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st138;
         }
         if (c == 39) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st139;
         }
         if (c == 91) {
@@ -13245,42 +13211,42 @@ st91: {  /* DFA node {65,78,31,51,30,50,1} 91 */
         }
         if (c == 92) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st141;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st137;
         }
     }
@@ -13300,42 +13266,42 @@ st92: {  /* DFA node {65,78,23,1} 92 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -13343,21 +13309,21 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -13365,38 +13331,38 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -13409,22 +13375,22 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         }
     case 91: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_4 = i - 1;
         goto st93;
@@ -13432,42 +13398,42 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -13475,21 +13441,21 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -13497,21 +13463,21 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -13522,22 +13488,22 @@ st92: {  /* DFA node {65,78,23,1} 92 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -13555,7 +13521,6 @@ st93: {  /* DFA node {65,78,25,21,1} 93 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_4;
-    matched_1 = caps2_5;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 2;
@@ -13589,43 +13554,43 @@ st94: {  /* DFA node {63,76,1} 94 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -13633,22 +13598,22 @@ st94: {  /* DFA node {63,76,1} 94 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -13656,38 +13621,38 @@ st94: {  /* DFA node {63,76,1} 94 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -13696,22 +13661,22 @@ st94: {  /* DFA node {63,76,1} 94 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -13723,22 +13688,22 @@ st94: {  /* DFA node {63,76,1} 94 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -13746,22 +13711,22 @@ st94: {  /* DFA node {63,76,1} 94 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -13769,22 +13734,22 @@ st94: {  /* DFA node {63,76,1} 94 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -13816,42 +13781,42 @@ st95: {  /* DFA node {63,76,59,1} 95 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -13859,21 +13824,21 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -13881,38 +13846,38 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -13921,21 +13886,21 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -13943,42 +13908,42 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -13986,21 +13951,21 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -14008,21 +13973,21 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -14033,22 +13998,22 @@ st95: {  /* DFA node {63,76,59,1} 95 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -14071,42 +14036,42 @@ st96: {  /* DFA node {63,76,72,1} 96 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -14114,21 +14079,21 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -14136,38 +14101,38 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -14176,21 +14141,21 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -14198,42 +14163,42 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -14241,21 +14206,21 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -14263,21 +14228,21 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -14288,22 +14253,22 @@ st96: {  /* DFA node {63,76,72,1} 96 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -14326,59 +14291,59 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
-        caps0_0 = caps4_0;
-        caps0_1 = caps4_1;
-        caps0_2 = caps4_2;
-        caps0_3 = caps4_3;
-        caps0_4 = caps4_4;
-        caps0_5 = caps4_5;
-        caps0_6 = caps4_6;
-        caps0_7 = caps4_7;
-        caps0_8 = caps4_8;
-        caps0_9 = caps4_9;
-        caps0_10 = caps4_10;
-        caps0_11 = caps4_11;
-        caps0_12 = caps4_12;
-        caps0_13 = caps4_13;
-        caps0_14 = caps4_14;
-        caps0_15 = caps4_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -14386,38 +14351,38 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         }
     case 39: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -14425,38 +14390,38 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         }
     case 45: {
         /* transfer caps from row 4 to row 5 */
-        caps5_0 = caps4_0;
-        caps5_1 = caps4_1;
-        caps5_2 = caps4_2;
-        caps5_3 = caps4_3;
-        caps5_4 = caps4_4;
-        caps5_5 = caps4_5;
-        caps5_6 = caps4_6;
-        caps5_7 = caps4_7;
-        caps5_8 = caps4_8;
-        caps5_9 = caps4_9;
-        caps5_11 = caps4_11;
-        caps5_12 = caps4_12;
-        caps5_13 = caps4_13;
-        caps5_14 = caps4_14;
-        caps5_15 = caps4_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* transfer caps from row 4 to row 6 */
-        caps6_0 = caps4_0;
-        caps6_1 = caps4_1;
-        caps6_2 = caps4_2;
-        caps6_3 = caps4_3;
-        caps6_4 = caps4_4;
-        caps6_5 = caps4_5;
-        caps6_6 = caps4_6;
-        caps6_7 = caps4_7;
-        caps6_8 = caps4_8;
-        caps6_9 = caps4_9;
-        caps6_10 = caps4_10;
-        caps6_11 = caps4_11;
-        caps6_12 = caps4_12;
-        caps6_13 = caps4_13;
-        caps6_14 = caps4_14;
-        caps6_15 = caps4_15;
+        caps6_0 = -1;
+        caps6_1 = -1;
+        caps6_2 = -1;
+        caps6_3 = -1;
+        caps6_4 = -1;
+        caps6_5 = -1;
+        caps6_6 = -1;
+        caps6_7 = -1;
+        caps6_8 = -1;
+        caps6_9 = -1;
+        caps6_10 = -1;
+        caps6_11 = -1;
+        caps6_12 = -1;
+        caps6_13 = -1;
+        caps6_14 = -1;
+        caps6_15 = -1;
         /* capture stores */
         caps4_6 = i - 1;
         caps5_10 = i - 1;
@@ -14465,38 +14430,38 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         }
     case 91: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -14504,59 +14469,59 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         }
     case 92: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -14564,38 +14529,38 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         }
     case 123: {
         /* transfer caps from row 4 to row 2 */
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -14603,38 +14568,38 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         }
     case 125: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -14645,22 +14610,22 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 4 to row 2 */
-    caps2_0 = caps4_0;
-    caps2_1 = caps4_1;
-    caps2_2 = caps4_2;
-    caps2_3 = caps4_3;
-    caps2_4 = caps4_4;
-    caps2_5 = caps4_5;
-    caps2_6 = caps4_6;
-    caps2_7 = caps4_7;
-    caps2_8 = caps4_8;
-    caps2_9 = caps4_9;
-    caps2_10 = caps4_10;
-    caps2_11 = caps4_11;
-    caps2_12 = caps4_12;
-    caps2_13 = caps4_13;
-    caps2_14 = caps4_14;
-    caps2_15 = caps4_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -14683,42 +14648,42 @@ st98: {  /* DFA node {63,76,21,1} 98 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -14726,21 +14691,21 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -14748,38 +14713,38 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -14792,22 +14757,22 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         }
     case 91: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_4 = i - 1;
         goto st93;
@@ -14815,42 +14780,42 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st41;
@@ -14858,21 +14823,21 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -14880,21 +14845,21 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -14905,22 +14870,22 @@ st98: {  /* DFA node {63,76,21,1} 98 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -14943,42 +14908,42 @@ st99: {  /* DFA node {63,76,41,1} 99 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -14986,21 +14951,21 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -15008,38 +14973,38 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -15052,21 +15017,21 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -15074,43 +15039,43 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_8 = i - 1;
         goto st103;
@@ -15118,21 +15083,21 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -15140,21 +15105,21 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -15165,22 +15130,22 @@ st99: {  /* DFA node {63,76,41,1} 99 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -15198,7 +15163,6 @@ st100: {  /* DFA node {63,76,11,1} 100 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_0;
-    matched_1 = caps2_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -15227,7 +15191,6 @@ st101: {  /* DFA node {63,76,16,1} 101 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_2;
-    matched_1 = caps2_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -15261,42 +15224,42 @@ st102: {  /* DFA node {65,78,43,1} 102 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st36;
@@ -15304,21 +15267,21 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st37;
@@ -15326,38 +15289,38 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -15370,21 +15333,21 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st39;
@@ -15392,43 +15355,43 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st40;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_8 = i - 1;
         goto st103;
@@ -15436,21 +15399,21 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st42;
@@ -15458,21 +15421,21 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st43;
@@ -15483,22 +15446,22 @@ st102: {  /* DFA node {65,78,43,1} 102 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st35;
     }  /* end state */
 
@@ -15516,7 +15479,6 @@ st103: {  /* DFA node {65,78,45,41,1} 103 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_8;
-    matched_1 = caps2_9;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 4;
@@ -15582,7 +15544,6 @@ st105: {  /* DFA node {67,78} 105 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_12;
-    matched_1 = caps0_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -15597,7 +15558,6 @@ st106: {  /* DFA node {65,80} 106 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_14;
-    matched_1 = caps1_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -15644,7 +15604,6 @@ st108: {  /* DFA node {65,53} 108 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -15670,7 +15629,6 @@ st109: {  /* DFA node {67,53} 109 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_12;
-    matched_1 = caps0_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -15685,29 +15643,28 @@ st110: {  /* DFA node {65,32,53} 110 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st109;
         }
         if (c == 61) {
@@ -15718,42 +15675,42 @@ st110: {  /* DFA node {65,32,53} 110 */
         }
         if (c == 92) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st111;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st108;
         }
     }
@@ -15768,7 +15725,6 @@ st111: {  /* DFA node {62,53} 111 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -15821,49 +15777,48 @@ st113: {  /* DFA node {78,65,31,51,30,50,1} 113 */
     i++;
     /* transfer caps from row 3 to matched */
     matched_0 = caps3_10;
-    matched_1 = caps3_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st147;
         }
         if (c == 39) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st148;
         }
         if (c == 91) {
@@ -15871,42 +15826,42 @@ st113: {  /* DFA node {78,65,31,51,30,50,1} 113 */
         }
         if (c == 92) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st150;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st146;
         }
     }
@@ -15926,42 +15881,42 @@ st114: {  /* DFA node {78,65,23,1} 114 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -15969,21 +15924,21 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -15991,38 +15946,38 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -16035,22 +15990,22 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         }
     case 91: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_4 = i - 1;
         goto st115;
@@ -16058,42 +16013,42 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -16101,21 +16056,21 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -16123,21 +16078,21 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -16148,22 +16103,22 @@ st114: {  /* DFA node {78,65,23,1} 114 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -16181,7 +16136,6 @@ st115: {  /* DFA node {78,65,25,21,1} 115 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_4;
-    matched_1 = caps2_5;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 2;
@@ -16215,43 +16169,43 @@ st116: {  /* DFA node {76,63,1} 116 */
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
-        caps0_0 = caps2_0;
-        caps0_1 = caps2_1;
-        caps0_2 = caps2_2;
-        caps0_3 = caps2_3;
-        caps0_4 = caps2_4;
-        caps0_5 = caps2_5;
-        caps0_6 = caps2_6;
-        caps0_7 = caps2_7;
-        caps0_8 = caps2_8;
-        caps0_9 = caps2_9;
-        caps0_10 = caps2_10;
-        caps0_11 = caps2_11;
-        caps0_12 = caps2_12;
-        caps0_13 = caps2_13;
-        caps0_14 = caps2_14;
-        caps0_15 = caps2_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -16259,22 +16213,22 @@ st116: {  /* DFA node {76,63,1} 116 */
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -16282,38 +16236,38 @@ st116: {  /* DFA node {76,63,1} 116 */
         }
     case 45: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* transfer caps from row 2 to row 4 */
-        caps4_0 = caps2_0;
-        caps4_1 = caps2_1;
-        caps4_2 = caps2_2;
-        caps4_3 = caps2_3;
-        caps4_4 = caps2_4;
-        caps4_5 = caps2_5;
-        caps4_6 = caps2_6;
-        caps4_7 = caps2_7;
-        caps4_8 = caps2_8;
-        caps4_9 = caps2_9;
-        caps4_10 = caps2_10;
-        caps4_11 = caps2_11;
-        caps4_12 = caps2_12;
-        caps4_13 = caps2_13;
-        caps4_14 = caps2_14;
-        caps4_15 = caps2_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -16322,22 +16276,22 @@ st116: {  /* DFA node {76,63,1} 116 */
         }
     case 91: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -16349,22 +16303,22 @@ st116: {  /* DFA node {76,63,1} 116 */
         }
     case 93: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -16372,22 +16326,22 @@ st116: {  /* DFA node {76,63,1} 116 */
         }
     case 123: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -16395,22 +16349,22 @@ st116: {  /* DFA node {76,63,1} 116 */
         }
     case 125: {
         /* transfer caps from row 2 to row 3 */
-        caps3_0 = caps2_0;
-        caps3_1 = caps2_1;
-        caps3_2 = caps2_2;
-        caps3_3 = caps2_3;
-        caps3_4 = caps2_4;
-        caps3_5 = caps2_5;
-        caps3_6 = caps2_6;
-        caps3_7 = caps2_7;
-        caps3_8 = caps2_8;
-        caps3_9 = caps2_9;
-        caps3_10 = caps2_10;
-        caps3_11 = caps2_11;
-        caps3_12 = caps2_12;
-        caps3_13 = caps2_13;
-        caps3_14 = caps2_14;
-        caps3_15 = caps2_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -16442,42 +16396,42 @@ st117: {  /* DFA node {76,63,59,1} 117 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -16485,21 +16439,21 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -16507,38 +16461,38 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -16547,21 +16501,21 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -16569,42 +16523,42 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -16612,21 +16566,21 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -16634,21 +16588,21 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -16659,22 +16613,22 @@ st117: {  /* DFA node {76,63,59,1} 117 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -16697,42 +16651,42 @@ st118: {  /* DFA node {76,63,72,1} 118 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -16740,21 +16694,21 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -16762,38 +16716,38 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -16802,21 +16756,21 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -16824,42 +16778,42 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -16867,21 +16821,21 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -16889,21 +16843,21 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -16914,22 +16868,22 @@ st118: {  /* DFA node {76,63,72,1} 118 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -16952,59 +16906,59 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
-        caps0_0 = caps4_0;
-        caps0_1 = caps4_1;
-        caps0_2 = caps4_2;
-        caps0_3 = caps4_3;
-        caps0_4 = caps4_4;
-        caps0_5 = caps4_5;
-        caps0_6 = caps4_6;
-        caps0_7 = caps4_7;
-        caps0_8 = caps4_8;
-        caps0_9 = caps4_9;
-        caps0_10 = caps4_10;
-        caps0_11 = caps4_11;
-        caps0_12 = caps4_12;
-        caps0_13 = caps4_13;
-        caps0_14 = caps4_14;
-        caps0_15 = caps4_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -17012,38 +16966,38 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         }
     case 39: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -17051,38 +17005,38 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         }
     case 45: {
         /* transfer caps from row 4 to row 5 */
-        caps5_0 = caps4_0;
-        caps5_1 = caps4_1;
-        caps5_2 = caps4_2;
-        caps5_3 = caps4_3;
-        caps5_4 = caps4_4;
-        caps5_5 = caps4_5;
-        caps5_6 = caps4_6;
-        caps5_7 = caps4_7;
-        caps5_8 = caps4_8;
-        caps5_9 = caps4_9;
-        caps5_11 = caps4_11;
-        caps5_12 = caps4_12;
-        caps5_13 = caps4_13;
-        caps5_14 = caps4_14;
-        caps5_15 = caps4_15;
+        caps5_0 = -1;
+        caps5_1 = -1;
+        caps5_2 = -1;
+        caps5_3 = -1;
+        caps5_4 = -1;
+        caps5_5 = -1;
+        caps5_6 = -1;
+        caps5_7 = -1;
+        caps5_8 = -1;
+        caps5_9 = -1;
+        caps5_11 = -1;
+        caps5_12 = -1;
+        caps5_13 = -1;
+        caps5_14 = -1;
+        caps5_15 = -1;
         /* transfer caps from row 4 to row 6 */
-        caps6_0 = caps4_0;
-        caps6_1 = caps4_1;
-        caps6_2 = caps4_2;
-        caps6_3 = caps4_3;
-        caps6_4 = caps4_4;
-        caps6_5 = caps4_5;
-        caps6_6 = caps4_6;
-        caps6_7 = caps4_7;
-        caps6_8 = caps4_8;
-        caps6_9 = caps4_9;
-        caps6_10 = caps4_10;
-        caps6_11 = caps4_11;
-        caps6_12 = caps4_12;
-        caps6_13 = caps4_13;
-        caps6_14 = caps4_14;
-        caps6_15 = caps4_15;
+        caps6_0 = -1;
+        caps6_1 = -1;
+        caps6_2 = -1;
+        caps6_3 = -1;
+        caps6_4 = -1;
+        caps6_5 = -1;
+        caps6_6 = -1;
+        caps6_7 = -1;
+        caps6_8 = -1;
+        caps6_9 = -1;
+        caps6_10 = -1;
+        caps6_11 = -1;
+        caps6_12 = -1;
+        caps6_13 = -1;
+        caps6_14 = -1;
+        caps6_15 = -1;
         /* capture stores */
         caps4_6 = i - 1;
         caps5_10 = i - 1;
@@ -17091,38 +17045,38 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         }
     case 91: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -17130,59 +17084,59 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         }
     case 92: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -17190,38 +17144,38 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         }
     case 123: {
         /* transfer caps from row 4 to row 2 */
-        caps2_1 = caps4_1;
-        caps2_2 = caps4_2;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -17229,38 +17183,38 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         }
     case 125: {
         /* transfer caps from row 4 to row 2 */
-        caps2_0 = caps4_0;
-        caps2_1 = caps4_1;
-        caps2_3 = caps4_3;
-        caps2_4 = caps4_4;
-        caps2_5 = caps4_5;
-        caps2_6 = caps4_6;
-        caps2_7 = caps4_7;
-        caps2_8 = caps4_8;
-        caps2_9 = caps4_9;
-        caps2_10 = caps4_10;
-        caps2_11 = caps4_11;
-        caps2_12 = caps4_12;
-        caps2_13 = caps4_13;
-        caps2_14 = caps4_14;
-        caps2_15 = caps4_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 4 to row 3 */
-        caps3_0 = caps4_0;
-        caps3_1 = caps4_1;
-        caps3_2 = caps4_2;
-        caps3_3 = caps4_3;
-        caps3_4 = caps4_4;
-        caps3_5 = caps4_5;
-        caps3_6 = caps4_6;
-        caps3_7 = caps4_7;
-        caps3_8 = caps4_8;
-        caps3_9 = caps4_9;
-        caps3_10 = caps4_10;
-        caps3_11 = caps4_11;
-        caps3_12 = caps4_12;
-        caps3_13 = caps4_13;
-        caps3_14 = caps4_14;
-        caps3_15 = caps4_15;
+        caps3_0 = -1;
+        caps3_1 = -1;
+        caps3_2 = -1;
+        caps3_3 = -1;
+        caps3_4 = -1;
+        caps3_5 = -1;
+        caps3_6 = -1;
+        caps3_7 = -1;
+        caps3_8 = -1;
+        caps3_9 = -1;
+        caps3_10 = -1;
+        caps3_11 = -1;
+        caps3_12 = -1;
+        caps3_13 = -1;
+        caps3_14 = -1;
+        caps3_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -17271,22 +17225,22 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 4 to row 2 */
-    caps2_0 = caps4_0;
-    caps2_1 = caps4_1;
-    caps2_2 = caps4_2;
-    caps2_3 = caps4_3;
-    caps2_4 = caps4_4;
-    caps2_5 = caps4_5;
-    caps2_6 = caps4_6;
-    caps2_7 = caps4_7;
-    caps2_8 = caps4_8;
-    caps2_9 = caps4_9;
-    caps2_10 = caps4_10;
-    caps2_11 = caps4_11;
-    caps2_12 = caps4_12;
-    caps2_13 = caps4_13;
-    caps2_14 = caps4_14;
-    caps2_15 = caps4_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -17309,42 +17263,42 @@ st120: {  /* DFA node {76,63,21,1} 120 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -17352,21 +17306,21 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -17374,38 +17328,38 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -17418,22 +17372,22 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         }
     case 91: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_4 = i - 1;
         goto st115;
@@ -17441,42 +17395,42 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_8 = i - 1;
         goto st66;
@@ -17484,21 +17438,21 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -17506,21 +17460,21 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -17531,22 +17485,22 @@ st120: {  /* DFA node {76,63,21,1} 120 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -17569,42 +17523,42 @@ st121: {  /* DFA node {76,63,41,1} 121 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -17612,21 +17566,21 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -17634,38 +17588,38 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -17678,21 +17632,21 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -17700,43 +17654,43 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_8 = i - 1;
         goto st125;
@@ -17744,21 +17698,21 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -17766,21 +17720,21 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -17791,22 +17745,22 @@ st121: {  /* DFA node {76,63,41,1} 121 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -17824,7 +17778,6 @@ st122: {  /* DFA node {76,63,11,1} 122 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_0;
-    matched_1 = caps2_1;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 0;
@@ -17853,7 +17806,6 @@ st123: {  /* DFA node {76,63,16,1} 123 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_2;
-    matched_1 = caps2_3;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 1;
@@ -17887,42 +17839,42 @@ st124: {  /* DFA node {78,65,43,1} 124 */
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
-        caps0_0 = caps3_0;
-        caps0_1 = caps3_1;
-        caps0_2 = caps3_2;
-        caps0_3 = caps3_3;
-        caps0_4 = caps3_4;
-        caps0_5 = caps3_5;
-        caps0_6 = caps3_6;
-        caps0_7 = caps3_7;
-        caps0_8 = caps3_8;
-        caps0_9 = caps3_9;
-        caps0_10 = caps3_10;
-        caps0_11 = caps3_11;
-        caps0_12 = caps3_12;
-        caps0_13 = caps3_13;
-        caps0_14 = caps3_14;
-        caps0_15 = caps3_15;
+        caps0_0 = -1;
+        caps0_1 = -1;
+        caps0_2 = -1;
+        caps0_3 = -1;
+        caps0_4 = -1;
+        caps0_5 = -1;
+        caps0_6 = -1;
+        caps0_7 = -1;
+        caps0_8 = -1;
+        caps0_9 = -1;
+        caps0_10 = -1;
+        caps0_11 = -1;
+        caps0_12 = -1;
+        caps0_13 = -1;
+        caps0_14 = -1;
+        caps0_15 = -1;
         goto st1;
         break;
         }
     case 34: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_12 = i - 1;
         goto st61;
@@ -17930,21 +17882,21 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_14 = i - 1;
         goto st62;
@@ -17952,38 +17904,38 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         }
     case 45: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps2_6 = i - 1;
         caps3_10 = i - 1;
@@ -17996,21 +17948,21 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         }
     case 91: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_4 = i - 1;
         goto st64;
@@ -18018,43 +17970,43 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         }
     case 92: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         goto st65;
         break;
         }
     case 93: {
         /* transfer caps from row 3 to row 4 */
-        caps4_0 = caps3_0;
-        caps4_1 = caps3_1;
-        caps4_2 = caps3_2;
-        caps4_3 = caps3_3;
-        caps4_4 = caps3_4;
-        caps4_5 = caps3_5;
-        caps4_6 = caps3_6;
-        caps4_7 = caps3_7;
-        caps4_8 = caps3_8;
-        caps4_9 = caps3_9;
-        caps4_10 = caps3_10;
-        caps4_11 = caps3_11;
-        caps4_12 = caps3_12;
-        caps4_13 = caps3_13;
-        caps4_14 = caps3_14;
-        caps4_15 = caps3_15;
+        caps4_0 = -1;
+        caps4_1 = -1;
+        caps4_2 = -1;
+        caps4_3 = -1;
+        caps4_4 = -1;
+        caps4_5 = -1;
+        caps4_6 = -1;
+        caps4_7 = -1;
+        caps4_8 = -1;
+        caps4_9 = -1;
+        caps4_10 = -1;
+        caps4_11 = -1;
+        caps4_12 = -1;
+        caps4_13 = -1;
+        caps4_14 = -1;
+        caps4_15 = -1;
         /* capture stores */
         caps3_8 = i - 1;
         goto st125;
@@ -18062,21 +18014,21 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         }
     case 123: {
         /* transfer caps from row 3 to row 2 */
-        caps2_1 = caps3_1;
-        caps2_2 = caps3_2;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_1 = -1;
+        caps2_2 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_0 = i - 1;
         goto st67;
@@ -18084,21 +18036,21 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         }
     case 125: {
         /* transfer caps from row 3 to row 2 */
-        caps2_0 = caps3_0;
-        caps2_1 = caps3_1;
-        caps2_3 = caps3_3;
-        caps2_4 = caps3_4;
-        caps2_5 = caps3_5;
-        caps2_6 = caps3_6;
-        caps2_7 = caps3_7;
-        caps2_8 = caps3_8;
-        caps2_9 = caps3_9;
-        caps2_10 = caps3_10;
-        caps2_11 = caps3_11;
-        caps2_12 = caps3_12;
-        caps2_13 = caps3_13;
-        caps2_14 = caps3_14;
-        caps2_15 = caps3_15;
+        caps2_0 = -1;
+        caps2_1 = -1;
+        caps2_3 = -1;
+        caps2_4 = -1;
+        caps2_5 = -1;
+        caps2_6 = -1;
+        caps2_7 = -1;
+        caps2_8 = -1;
+        caps2_9 = -1;
+        caps2_10 = -1;
+        caps2_11 = -1;
+        caps2_12 = -1;
+        caps2_13 = -1;
+        caps2_14 = -1;
+        caps2_15 = -1;
         /* capture stores */
         caps2_2 = i - 1;
         goto st68;
@@ -18109,22 +18061,22 @@ st124: {  /* DFA node {78,65,43,1} 124 */
     }
     /* (c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 44) || (c >= 46 && c <= 60) || (c >= 62 && c <= 90) || (c >= 94 && c <= 122) || (c == 124) || (c >= 126 && c <= 255) */
     /* transfer caps from row 3 to row 2 */
-    caps2_0 = caps3_0;
-    caps2_1 = caps3_1;
-    caps2_2 = caps3_2;
-    caps2_3 = caps3_3;
-    caps2_4 = caps3_4;
-    caps2_5 = caps3_5;
-    caps2_6 = caps3_6;
-    caps2_7 = caps3_7;
-    caps2_8 = caps3_8;
-    caps2_9 = caps3_9;
-    caps2_10 = caps3_10;
-    caps2_11 = caps3_11;
-    caps2_12 = caps3_12;
-    caps2_13 = caps3_13;
-    caps2_14 = caps3_14;
-    caps2_15 = caps3_15;
+    caps2_0 = -1;
+    caps2_1 = -1;
+    caps2_2 = -1;
+    caps2_3 = -1;
+    caps2_4 = -1;
+    caps2_5 = -1;
+    caps2_6 = -1;
+    caps2_7 = -1;
+    caps2_8 = -1;
+    caps2_9 = -1;
+    caps2_10 = -1;
+    caps2_11 = -1;
+    caps2_12 = -1;
+    caps2_13 = -1;
+    caps2_14 = -1;
+    caps2_15 = -1;
     goto st60;
     }  /* end state */
 
@@ -18142,7 +18094,6 @@ st125: {  /* DFA node {78,65,45,41,1} 125 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_8;
-    matched_1 = caps2_9;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 4;
@@ -18208,7 +18159,6 @@ st127: {  /* DFA node {78,67} 127 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_12;
-    matched_1 = caps1_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -18234,7 +18184,6 @@ st128: {  /* DFA node {80,65} 128 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_14;
-    matched_1 = caps0_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -18270,7 +18219,6 @@ st130: {  /* DFA node {78,53} 130 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18296,7 +18244,6 @@ st131: {  /* DFA node {80,53} 131 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_14;
-    matched_1 = caps0_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -18311,29 +18258,28 @@ st132: {  /* DFA node {78,32,53} 132 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 39) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st131;
         }
         if (c == 61) {
@@ -18344,42 +18290,42 @@ st132: {  /* DFA node {78,32,53} 132 */
         }
         if (c == 92) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st133;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 38) || (c >= 40 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st130;
         }
     }
@@ -18394,7 +18340,6 @@ st133: {  /* DFA node {75,53} 133 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18447,7 +18392,6 @@ st135: {  /* DFA node {34,53} 135 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18460,22 +18404,22 @@ st135: {  /* DFA node {34,53} 135 */
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 60) || (c >= 62 && c <= 90) || (c >= 92 && c <= 255)) {
             /* transfer caps from row 1 to row 0 */
-            caps0_0 = caps1_0;
-            caps0_1 = caps1_1;
-            caps0_2 = caps1_2;
-            caps0_3 = caps1_3;
-            caps0_4 = caps1_4;
-            caps0_5 = caps1_5;
-            caps0_6 = caps1_6;
-            caps0_7 = caps1_7;
-            caps0_8 = caps1_8;
-            caps0_9 = caps1_9;
+            caps0_0 = -1;
+            caps0_1 = -1;
+            caps0_2 = -1;
+            caps0_3 = -1;
+            caps0_4 = -1;
+            caps0_5 = -1;
+            caps0_6 = -1;
+            caps0_7 = -1;
+            caps0_8 = -1;
+            caps0_9 = -1;
             caps0_10 = caps1_10;
-            caps0_11 = caps1_11;
-            caps0_12 = caps1_12;
-            caps0_13 = caps1_13;
-            caps0_14 = caps1_14;
-            caps0_15 = caps1_15;
+            caps0_11 = -1;
+            caps0_12 = -1;
+            caps0_13 = -1;
+            caps0_14 = -1;
+            caps0_15 = -1;
             goto st87;
         }
     }
@@ -18490,7 +18434,6 @@ st136: {  /* DFA node {36,53} 136 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_6;
-    matched_1 = caps0_7;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 3;
@@ -18505,7 +18448,6 @@ st137: {  /* DFA node {65,78,53} 137 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18534,7 +18476,6 @@ st138: {  /* DFA node {67,78,53} 138 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_12;
-    matched_1 = caps0_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -18549,7 +18490,6 @@ st139: {  /* DFA node {65,80,53} 139 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_14;
-    matched_1 = caps1_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -18575,49 +18515,48 @@ st140: {  /* DFA node {65,78,32,53} 140 */
     i++;
     /* transfer caps from row 3 to matched */
     matched_0 = caps3_10;
-    matched_1 = caps3_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st138;
         }
         if (c == 39) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st139;
         }
         if (c == 61) {
@@ -18628,42 +18567,42 @@ st140: {  /* DFA node {65,78,32,53} 140 */
         }
         if (c == 92) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st141;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st137;
         }
     }
@@ -18678,7 +18617,6 @@ st141: {  /* DFA node {62,75,53} 141 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18735,29 +18673,28 @@ st143: {  /* DFA node {65,34,53} 143 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st109;
         }
         if (c == 61) {
@@ -18768,42 +18705,42 @@ st143: {  /* DFA node {65,34,53} 143 */
         }
         if (c == 92) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st111;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st108;
         }
     }
@@ -18818,7 +18755,6 @@ st144: {  /* DFA node {65,36,53} 144 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_6;
-    matched_1 = caps1_7;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 3;
@@ -18844,7 +18780,6 @@ st145: {  /* DFA node {63,53} 145 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18870,7 +18805,6 @@ st146: {  /* DFA node {78,65,53} 146 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -18899,7 +18833,6 @@ st147: {  /* DFA node {78,67,53} 147 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_12;
-    matched_1 = caps1_13;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 6;
@@ -18925,7 +18858,6 @@ st148: {  /* DFA node {80,65,53} 148 */
     i++;
     /* transfer caps from row 0 to matched */
     matched_0 = caps0_14;
-    matched_1 = caps0_15;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 7;
@@ -18940,49 +18872,48 @@ st149: {  /* DFA node {78,65,32,53} 149 */
     i++;
     /* transfer caps from row 3 to matched */
     matched_0 = caps3_10;
-    matched_1 = caps3_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st147;
         }
         if (c == 39) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st148;
         }
         if (c == 61) {
@@ -18993,42 +18924,42 @@ st149: {  /* DFA node {78,65,32,53} 149 */
         }
         if (c == 92) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st150;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st146;
         }
     }
@@ -19043,7 +18974,6 @@ st150: {  /* DFA node {75,62,53} 150 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -19100,29 +19030,28 @@ st152: {  /* DFA node {78,34,53} 152 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 39) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st131;
         }
         if (c == 61) {
@@ -19133,42 +19062,42 @@ st152: {  /* DFA node {78,34,53} 152 */
         }
         if (c == 92) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st133;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 38) || (c >= 40 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 2 to row 1 */
-            caps1_0 = caps2_0;
-            caps1_1 = caps2_1;
-            caps1_2 = caps2_2;
-            caps1_3 = caps2_3;
-            caps1_4 = caps2_4;
-            caps1_5 = caps2_5;
-            caps1_6 = caps2_6;
-            caps1_7 = caps2_7;
-            caps1_8 = caps2_8;
-            caps1_9 = caps2_9;
+            caps1_0 = -1;
+            caps1_1 = -1;
+            caps1_2 = -1;
+            caps1_3 = -1;
+            caps1_4 = -1;
+            caps1_5 = -1;
+            caps1_6 = -1;
+            caps1_7 = -1;
+            caps1_8 = -1;
+            caps1_9 = -1;
             caps1_10 = caps2_10;
-            caps1_11 = caps2_11;
-            caps1_12 = caps2_12;
-            caps1_13 = caps2_13;
-            caps1_14 = caps2_14;
-            caps1_15 = caps2_15;
+            caps1_11 = -1;
+            caps1_12 = -1;
+            caps1_13 = -1;
+            caps1_14 = -1;
+            caps1_15 = -1;
             goto st130;
         }
     }
@@ -19183,7 +19112,6 @@ st153: {  /* DFA node {78,36,53} 153 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_6;
-    matched_1 = caps1_7;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 3;
@@ -19209,7 +19137,6 @@ st154: {  /* DFA node {76,53} 154 */
     i++;
     /* transfer caps from row 1 to matched */
     matched_0 = caps1_10;
-    matched_1 = caps1_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -19235,49 +19162,48 @@ st156: {  /* DFA node {65,78,34,53} 156 */
     i++;
     /* transfer caps from row 3 to matched */
     matched_0 = caps3_10;
-    matched_1 = caps3_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st138;
         }
         if (c == 39) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st139;
         }
         if (c == 61) {
@@ -19288,42 +19214,42 @@ st156: {  /* DFA node {65,78,34,53} 156 */
         }
         if (c == 92) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st141;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st137;
         }
     }
@@ -19338,7 +19264,6 @@ st157: {  /* DFA node {65,78,36,53} 157 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_6;
-    matched_1 = caps2_7;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 3;
@@ -19367,7 +19292,6 @@ st158: {  /* DFA node {63,76,53} 158 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
@@ -19396,49 +19320,48 @@ st159: {  /* DFA node {78,65,34,53} 159 */
     i++;
     /* transfer caps from row 3 to matched */
     matched_0 = caps3_10;
-    matched_1 = caps3_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
     if (c != -1) {
         if (c == 34) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st147;
         }
         if (c == 39) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st148;
         }
         if (c == 61) {
@@ -19449,42 +19372,42 @@ st159: {  /* DFA node {78,65,34,53} 159 */
         }
         if (c == 92) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st150;
         }
         if ((c >= 0 && c <= 9) || (c >= 11 && c <= 33) || (c >= 35 && c <= 38) || (c >= 40 && c <= 60) || (c >= 62 && c <= 90) || (c >= 93 && c <= 255)) {
             /* transfer caps from row 3 to row 2 */
-            caps2_0 = caps3_0;
-            caps2_1 = caps3_1;
-            caps2_2 = caps3_2;
-            caps2_3 = caps3_3;
-            caps2_4 = caps3_4;
-            caps2_5 = caps3_5;
-            caps2_6 = caps3_6;
-            caps2_7 = caps3_7;
-            caps2_8 = caps3_8;
-            caps2_9 = caps3_9;
+            caps2_0 = -1;
+            caps2_1 = -1;
+            caps2_2 = -1;
+            caps2_3 = -1;
+            caps2_4 = -1;
+            caps2_5 = -1;
+            caps2_6 = -1;
+            caps2_7 = -1;
+            caps2_8 = -1;
+            caps2_9 = -1;
             caps2_10 = caps3_10;
-            caps2_11 = caps3_11;
-            caps2_12 = caps3_12;
-            caps2_13 = caps3_13;
-            caps2_14 = caps3_14;
-            caps2_15 = caps3_15;
+            caps2_11 = -1;
+            caps2_12 = -1;
+            caps2_13 = -1;
+            caps2_14 = -1;
+            caps2_15 = -1;
             goto st146;
         }
     }
@@ -19499,7 +19422,6 @@ st160: {  /* DFA node {78,65,36,53} 160 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_6;
-    matched_1 = caps2_7;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 3;
@@ -19528,7 +19450,6 @@ st161: {  /* DFA node {76,63,53} 161 */
     i++;
     /* transfer caps from row 2 to matched */
     matched_0 = caps2_10;
-    matched_1 = caps2_11;
     /* capture stores */
     matched_1 = i - 1;
     matched_id = 5;
