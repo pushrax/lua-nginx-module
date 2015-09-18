@@ -236,14 +236,7 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
     goto st1;
     }  /* end state */
 
-st0_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st0_error;
 
 st1: {  /* DFA node {1} 1 */
     if (unlikely(i >= len)) {
@@ -311,14 +304,7 @@ st1: {  /* DFA node {1} 1 */
     goto st1;
     }  /* end state */
 
-st1_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st1_error;
 
 st2: {  /* DFA node {59,1} 2 */
     if (unlikely(i >= len)) {
@@ -395,14 +381,7 @@ st2: {  /* DFA node {59,1} 2 */
     goto st9;
     }  /* end state */
 
-st2_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st2_error;
 
 st3: {  /* DFA node {72,1} 3 */
     if (unlikely(i >= len)) {
@@ -479,14 +458,7 @@ st3: {  /* DFA node {72,1} 3 */
     goto st18;
     }  /* end state */
 
-st3_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st3_error;
 
 st4: {  /* DFA node {30,50,1} 4 */
     if (unlikely(i >= len)) {
@@ -561,14 +533,7 @@ st4: {  /* DFA node {30,50,1} 4 */
     goto st1;
     }  /* end state */
 
-st4_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st4_error;
 
 st5: {  /* DFA node {21,1} 5 */
     if (unlikely(i >= len)) {
@@ -641,14 +606,7 @@ st5: {  /* DFA node {21,1} 5 */
     goto st1;
     }  /* end state */
 
-st5_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st5_error;
 
 st6: {  /* DFA node {41,1} 6 */
     if (unlikely(i >= len)) {
@@ -721,14 +679,7 @@ st6: {  /* DFA node {41,1} 6 */
     goto st1;
     }  /* end state */
 
-st6_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st6_error;
 
 st7: {  /* DFA node {11,1} 7 */
     c = i < len ? s[i] : -1;
@@ -833,14 +784,7 @@ st9: {  /* DFA node {65,1} 9 */
     goto st9;
     }  /* end state */
 
-st9_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st9_error;
 
 st10: {  /* DFA node {67,59,1} 10 */
     c = i < len ? s[i] : -1;
@@ -931,14 +875,7 @@ st11: {  /* DFA node {65,72,1} 11 */
     goto st35;
     }  /* end state */
 
-st11_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st11_error;
 
 st12: {  /* DFA node {65,30,50,1} 12 */
     if (unlikely(i >= len)) {
@@ -1023,14 +960,7 @@ st12: {  /* DFA node {65,30,50,1} 12 */
     goto st9;
     }  /* end state */
 
-st12_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st12_error;
 
 st13: {  /* DFA node {65,21,1} 13 */
     if (unlikely(i >= len)) {
@@ -1113,14 +1043,7 @@ st13: {  /* DFA node {65,21,1} 13 */
     goto st9;
     }  /* end state */
 
-st13_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st13_error;
 
 st14: {  /* DFA node {62,1} 14 */
     if (unlikely(i >= len)) {
@@ -1193,14 +1116,7 @@ st14: {  /* DFA node {62,1} 14 */
     goto st47;
     }  /* end state */
 
-st14_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st14_error;
 
 st15: {  /* DFA node {65,41,1} 15 */
     if (unlikely(i >= len)) {
@@ -1283,14 +1199,7 @@ st15: {  /* DFA node {65,41,1} 15 */
     goto st9;
     }  /* end state */
 
-st15_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st15_error;
 
 st16: {  /* DFA node {65,11,1} 16 */
     c = i < len ? s[i] : -1;
@@ -1417,14 +1326,7 @@ st18: {  /* DFA node {78,1} 18 */
     goto st18;
     }  /* end state */
 
-st18_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st18_error;
 
 st19: {  /* DFA node {78,59,1} 19 */
     if (unlikely(i >= len)) {
@@ -1501,14 +1403,7 @@ st19: {  /* DFA node {78,59,1} 19 */
     goto st60;
     }  /* end state */
 
-st19_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st19_error;
 
 st20: {  /* DFA node {80,72,1} 20 */
     c = i < len ? s[i] : -1;
@@ -1607,14 +1502,7 @@ st21: {  /* DFA node {78,30,50,1} 21 */
     goto st18;
     }  /* end state */
 
-st21_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st21_error;
 
 st22: {  /* DFA node {78,21,1} 22 */
     if (unlikely(i >= len)) {
@@ -1697,14 +1585,7 @@ st22: {  /* DFA node {78,21,1} 22 */
     goto st18;
     }  /* end state */
 
-st22_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st22_error;
 
 st23: {  /* DFA node {75,1} 23 */
     if (unlikely(i >= len)) {
@@ -1777,14 +1658,7 @@ st23: {  /* DFA node {75,1} 23 */
     goto st73;
     }  /* end state */
 
-st23_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st23_error;
 
 st24: {  /* DFA node {78,41,1} 24 */
     if (unlikely(i >= len)) {
@@ -1867,14 +1741,7 @@ st24: {  /* DFA node {78,41,1} 24 */
     goto st18;
     }  /* end state */
 
-st24_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st24_error;
 
 st25: {  /* DFA node {78,11,1} 25 */
     c = i < len ? s[i] : -1;
@@ -2021,14 +1888,7 @@ st28: {  /* DFA node {23,1} 28 */
     goto st1;
     }  /* end state */
 
-st28_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st28_error;
 
 st29: {  /* DFA node {25,21,1} 29 */
     c = i < len ? s[i] : -1;
@@ -2115,14 +1975,7 @@ st30: {  /* DFA node {43,1} 30 */
     goto st1;
     }  /* end state */
 
-st30_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st30_error;
 
 st31: {  /* DFA node {45,41,1} 31 */
     c = i < len ? s[i] : -1;
@@ -2213,14 +2066,7 @@ st35: {  /* DFA node {65,78,1} 35 */
     goto st35;
     }  /* end state */
 
-st35_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st35_error;
 
 st36: {  /* DFA node {67,78,59,1} 36 */
     c = i < len ? s[i] : -1;
@@ -2344,14 +2190,7 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
     goto st35;
     }  /* end state */
 
-st38_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st38_error;
 
 st39: {  /* DFA node {65,78,21,1} 39 */
     if (unlikely(i >= len)) {
@@ -2434,14 +2273,7 @@ st39: {  /* DFA node {65,78,21,1} 39 */
     goto st35;
     }  /* end state */
 
-st39_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st39_error;
 
 st40: {  /* DFA node {62,75,1} 40 */
     if (unlikely(i >= len)) {
@@ -2514,14 +2346,7 @@ st40: {  /* DFA node {62,75,1} 40 */
     goto st94;
     }  /* end state */
 
-st40_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st40_error;
 
 st41: {  /* DFA node {65,78,41,1} 41 */
     if (unlikely(i >= len)) {
@@ -2604,14 +2429,7 @@ st41: {  /* DFA node {65,78,41,1} 41 */
     goto st35;
     }  /* end state */
 
-st41_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st41_error;
 
 st42: {  /* DFA node {65,78,11,1} 42 */
     c = i < len ? s[i] : -1;
@@ -2784,14 +2602,7 @@ st45: {  /* DFA node {65,23,1} 45 */
     goto st9;
     }  /* end state */
 
-st45_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st45_error;
 
 st46: {  /* DFA node {65,25,21,1} 46 */
     c = i < len ? s[i] : -1;
@@ -2893,14 +2704,7 @@ st47: {  /* DFA node {63,1} 47 */
     goto st9;
     }  /* end state */
 
-st47_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st47_error;
 
 st48: {  /* DFA node {63,59,1} 48 */
     if (unlikely(i >= len)) {
@@ -2979,14 +2783,7 @@ st48: {  /* DFA node {63,59,1} 48 */
     goto st9;
     }  /* end state */
 
-st48_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st48_error;
 
 st49: {  /* DFA node {63,72,1} 49 */
     if (unlikely(i >= len)) {
@@ -3063,14 +2860,7 @@ st49: {  /* DFA node {63,72,1} 49 */
     goto st35;
     }  /* end state */
 
-st49_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st49_error;
 
 st50: {  /* DFA node {63,30,50,1} 50 */
     if (unlikely(i >= len)) {
@@ -3155,14 +2945,7 @@ st50: {  /* DFA node {63,30,50,1} 50 */
     goto st9;
     }  /* end state */
 
-st50_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st50_error;
 
 st51: {  /* DFA node {63,21,1} 51 */
     if (unlikely(i >= len)) {
@@ -3245,14 +3028,7 @@ st51: {  /* DFA node {63,21,1} 51 */
     goto st9;
     }  /* end state */
 
-st51_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st51_error;
 
 st52: {  /* DFA node {63,41,1} 52 */
     if (unlikely(i >= len)) {
@@ -3335,14 +3111,7 @@ st52: {  /* DFA node {63,41,1} 52 */
     goto st9;
     }  /* end state */
 
-st52_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st52_error;
 
 st53: {  /* DFA node {63,11,1} 53 */
     c = i < len ? s[i] : -1;
@@ -3475,14 +3244,7 @@ st55: {  /* DFA node {65,43,1} 55 */
     goto st9;
     }  /* end state */
 
-st55_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st55_error;
 
 st56: {  /* DFA node {65,45,41,1} 56 */
     c = i < len ? s[i] : -1;
@@ -3533,14 +3295,7 @@ st57: {  /* DFA node {65} 57 */
     }
     }  /* end state */
 
-st57_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st57_error;
 
 st58: {  /* DFA node {67} 58 */
     c = i < len ? s[i] : -1;
@@ -3568,14 +3323,7 @@ st59: {  /* DFA node {62} 59 */
     }
     }  /* end state */
 
-st59_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st59_error;
 
 st60: {  /* DFA node {78,65,1} 60 */
     if (unlikely(i >= len)) {
@@ -3652,14 +3400,7 @@ st60: {  /* DFA node {78,65,1} 60 */
     goto st60;
     }  /* end state */
 
-st60_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st60_error;
 
 st61: {  /* DFA node {78,67,59,1} 61 */
     c = i < len ? s[i] : -1;
@@ -3783,14 +3524,7 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
     goto st60;
     }  /* end state */
 
-st63_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st63_error;
 
 st64: {  /* DFA node {78,65,21,1} 64 */
     if (unlikely(i >= len)) {
@@ -3873,14 +3607,7 @@ st64: {  /* DFA node {78,65,21,1} 64 */
     goto st60;
     }  /* end state */
 
-st64_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st64_error;
 
 st65: {  /* DFA node {75,62,1} 65 */
     if (unlikely(i >= len)) {
@@ -3953,14 +3680,7 @@ st65: {  /* DFA node {75,62,1} 65 */
     goto st116;
     }  /* end state */
 
-st65_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st65_error;
 
 st66: {  /* DFA node {78,65,41,1} 66 */
     if (unlikely(i >= len)) {
@@ -4043,14 +3763,7 @@ st66: {  /* DFA node {78,65,41,1} 66 */
     goto st60;
     }  /* end state */
 
-st66_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st66_error;
 
 st67: {  /* DFA node {78,65,11,1} 67 */
     c = i < len ? s[i] : -1;
@@ -4223,14 +3936,7 @@ st71: {  /* DFA node {78,23,1} 71 */
     goto st18;
     }  /* end state */
 
-st71_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st71_error;
 
 st72: {  /* DFA node {78,25,21,1} 72 */
     c = i < len ? s[i] : -1;
@@ -4332,14 +4038,7 @@ st73: {  /* DFA node {76,1} 73 */
     goto st18;
     }  /* end state */
 
-st73_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st73_error;
 
 st74: {  /* DFA node {76,59,1} 74 */
     if (unlikely(i >= len)) {
@@ -4416,14 +4115,7 @@ st74: {  /* DFA node {76,59,1} 74 */
     goto st60;
     }  /* end state */
 
-st74_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st74_error;
 
 st75: {  /* DFA node {76,72,1} 75 */
     if (unlikely(i >= len)) {
@@ -4502,14 +4194,7 @@ st75: {  /* DFA node {76,72,1} 75 */
     goto st18;
     }  /* end state */
 
-st75_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st75_error;
 
 st76: {  /* DFA node {76,30,50,1} 76 */
     if (unlikely(i >= len)) {
@@ -4594,14 +4279,7 @@ st76: {  /* DFA node {76,30,50,1} 76 */
     goto st18;
     }  /* end state */
 
-st76_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st76_error;
 
 st77: {  /* DFA node {76,21,1} 77 */
     if (unlikely(i >= len)) {
@@ -4684,14 +4362,7 @@ st77: {  /* DFA node {76,21,1} 77 */
     goto st18;
     }  /* end state */
 
-st77_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st77_error;
 
 st78: {  /* DFA node {76,41,1} 78 */
     if (unlikely(i >= len)) {
@@ -4774,14 +4445,7 @@ st78: {  /* DFA node {76,41,1} 78 */
     goto st18;
     }  /* end state */
 
-st78_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st78_error;
 
 st79: {  /* DFA node {76,11,1} 79 */
     c = i < len ? s[i] : -1;
@@ -4914,14 +4578,7 @@ st81: {  /* DFA node {78,43,1} 81 */
     goto st18;
     }  /* end state */
 
-st81_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st81_error;
 
 st82: {  /* DFA node {78,45,41,1} 82 */
     c = i < len ? s[i] : -1;
@@ -4972,14 +4629,7 @@ st83: {  /* DFA node {78} 83 */
     }
     }  /* end state */
 
-st83_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st83_error;
 
 st84: {  /* DFA node {80} 84 */
     c = i < len ? s[i] : -1;
@@ -5007,14 +4657,7 @@ st85: {  /* DFA node {75} 85 */
     }
     }  /* end state */
 
-st85_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st85_error;
 
 st87: {  /* DFA node {53} 87 */
     c = i < len ? s[i] : -1;
@@ -5182,14 +4825,7 @@ st92: {  /* DFA node {65,78,23,1} 92 */
     goto st35;
     }  /* end state */
 
-st92_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st92_error;
 
 st93: {  /* DFA node {65,78,25,21,1} 93 */
     c = i < len ? s[i] : -1;
@@ -5294,14 +4930,7 @@ st94: {  /* DFA node {63,76,1} 94 */
     goto st35;
     }  /* end state */
 
-st94_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st94_error;
 
 st95: {  /* DFA node {63,76,59,1} 95 */
     if (unlikely(i >= len)) {
@@ -5380,14 +5009,7 @@ st95: {  /* DFA node {63,76,59,1} 95 */
     goto st35;
     }  /* end state */
 
-st95_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st95_error;
 
 st96: {  /* DFA node {63,76,72,1} 96 */
     if (unlikely(i >= len)) {
@@ -5466,14 +5088,7 @@ st96: {  /* DFA node {63,76,72,1} 96 */
     goto st35;
     }  /* end state */
 
-st96_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st96_error;
 
 st97: {  /* DFA node {63,76,30,50,1} 97 */
     if (unlikely(i >= len)) {
@@ -5558,14 +5173,7 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
     goto st35;
     }  /* end state */
 
-st97_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st97_error;
 
 st98: {  /* DFA node {63,76,21,1} 98 */
     if (unlikely(i >= len)) {
@@ -5648,14 +5256,7 @@ st98: {  /* DFA node {63,76,21,1} 98 */
     goto st35;
     }  /* end state */
 
-st98_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st98_error;
 
 st99: {  /* DFA node {63,76,41,1} 99 */
     if (unlikely(i >= len)) {
@@ -5738,14 +5339,7 @@ st99: {  /* DFA node {63,76,41,1} 99 */
     goto st35;
     }  /* end state */
 
-st99_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st99_error;
 
 st100: {  /* DFA node {63,76,11,1} 100 */
     c = i < len ? s[i] : -1;
@@ -5884,14 +5478,7 @@ st102: {  /* DFA node {65,78,43,1} 102 */
     goto st35;
     }  /* end state */
 
-st102_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st102_error;
 
 st103: {  /* DFA node {65,78,45,41,1} 103 */
     c = i < len ? s[i] : -1;
@@ -5949,14 +5536,7 @@ st104: {  /* DFA node {65,78} 104 */
     }
     }  /* end state */
 
-st104_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st104_error;
 
 st105: {  /* DFA node {67,78} 105 */
     c = i < len ? s[i] : -1;
@@ -6009,14 +5589,7 @@ st107: {  /* DFA node {62,75} 107 */
     }
     }  /* end state */
 
-st107_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st107_error;
 
 st108: {  /* DFA node {65,53} 108 */
     c = i < len ? s[i] : -1;
@@ -6137,14 +5710,7 @@ st112: {  /* DFA node {63} 112 */
     }
     }  /* end state */
 
-st112_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st112_error;
 
 st113: {  /* DFA node {78,65,31,51,30,50,1} 113 */
     c = i < len ? s[i] : -1;
@@ -6266,14 +5832,7 @@ st114: {  /* DFA node {78,65,23,1} 114 */
     goto st60;
     }  /* end state */
 
-st114_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st114_error;
 
 st115: {  /* DFA node {78,65,25,21,1} 115 */
     c = i < len ? s[i] : -1;
@@ -6378,14 +5937,7 @@ st116: {  /* DFA node {76,63,1} 116 */
     goto st60;
     }  /* end state */
 
-st116_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st116_error;
 
 st117: {  /* DFA node {76,63,59,1} 117 */
     if (unlikely(i >= len)) {
@@ -6464,14 +6016,7 @@ st117: {  /* DFA node {76,63,59,1} 117 */
     goto st60;
     }  /* end state */
 
-st117_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st117_error;
 
 st118: {  /* DFA node {76,63,72,1} 118 */
     if (unlikely(i >= len)) {
@@ -6550,14 +6095,7 @@ st118: {  /* DFA node {76,63,72,1} 118 */
     goto st60;
     }  /* end state */
 
-st118_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st118_error;
 
 st119: {  /* DFA node {76,63,30,50,1} 119 */
     if (unlikely(i >= len)) {
@@ -6642,14 +6180,7 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
     goto st60;
     }  /* end state */
 
-st119_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st119_error;
 
 st120: {  /* DFA node {76,63,21,1} 120 */
     if (unlikely(i >= len)) {
@@ -6732,14 +6263,7 @@ st120: {  /* DFA node {76,63,21,1} 120 */
     goto st60;
     }  /* end state */
 
-st120_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st120_error;
 
 st121: {  /* DFA node {76,63,41,1} 121 */
     if (unlikely(i >= len)) {
@@ -6822,14 +6346,7 @@ st121: {  /* DFA node {76,63,41,1} 121 */
     goto st60;
     }  /* end state */
 
-st121_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st121_error;
 
 st122: {  /* DFA node {76,63,11,1} 122 */
     c = i < len ? s[i] : -1;
@@ -6968,14 +6485,7 @@ st124: {  /* DFA node {78,65,43,1} 124 */
     goto st60;
     }  /* end state */
 
-st124_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st124_error;
 
 st125: {  /* DFA node {78,65,45,41,1} 125 */
     c = i < len ? s[i] : -1;
@@ -7033,14 +6543,7 @@ st126: {  /* DFA node {78,65} 126 */
     }
     }  /* end state */
 
-st126_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st126_error;
 
 st127: {  /* DFA node {78,67} 127 */
     c = i < len ? s[i] : -1;
@@ -7093,14 +6596,7 @@ st129: {  /* DFA node {75,62} 129 */
     }
     }  /* end state */
 
-st129_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st129_error;
 
 st130: {  /* DFA node {78,53} 130 */
     c = i < len ? s[i] : -1;
@@ -7221,14 +6717,7 @@ st134: {  /* DFA node {76} 134 */
     }
     }  /* end state */
 
-st134_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st134_error;
 
 st135: {  /* DFA node {34,53} 135 */
     c = i < len ? s[i] : -1;
@@ -7427,14 +6916,7 @@ st142: {  /* DFA node {63,76} 142 */
     }
     }  /* end state */
 
-st142_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st142_error;
 
 st143: {  /* DFA node {65,34,53} 143 */
     c = i < len ? s[i] : -1;
@@ -7679,14 +7161,7 @@ st151: {  /* DFA node {76,63} 151 */
     }
     }  /* end state */
 
-st151_error:
-
-    if (matched_0 != -1) {
-        ovec[0] = matched_0;
-        ovec[1] = matched_1;
-        return matched_id;  /* fallback */
-    }
-    return NO_MATCH;
+    goto st151_error;
 
 st152: {  /* DFA node {78,34,53} 152 */
     c = i < len ? s[i] : -1;
@@ -7970,4 +7445,87 @@ st161: {  /* DFA node {76,63,53} 161 */
     ovec[0] = matched_0;
     ovec[1] = matched_1;
     return matched_id;  /* fallback */
+
+st0_error:
+st1_error:
+st2_error:
+st3_error:
+st4_error:
+st5_error:
+st6_error:
+st9_error:
+st11_error:
+st12_error:
+st13_error:
+st14_error:
+st15_error:
+st18_error:
+st19_error:
+st21_error:
+st22_error:
+st23_error:
+st24_error:
+st28_error:
+st30_error:
+st35_error:
+st38_error:
+st39_error:
+st40_error:
+st41_error:
+st45_error:
+st47_error:
+st48_error:
+st49_error:
+st50_error:
+st51_error:
+st52_error:
+st55_error:
+st57_error:
+st59_error:
+st60_error:
+st63_error:
+st64_error:
+st65_error:
+st66_error:
+st71_error:
+st73_error:
+st74_error:
+st75_error:
+st76_error:
+st77_error:
+st78_error:
+st81_error:
+st83_error:
+st85_error:
+st92_error:
+st94_error:
+st95_error:
+st96_error:
+st97_error:
+st98_error:
+st99_error:
+st102_error:
+st104_error:
+st107_error:
+st112_error:
+st114_error:
+st116_error:
+st117_error:
+st118_error:
+st119_error:
+st120_error:
+st121_error:
+st124_error:
+st126_error:
+st129_error:
+st134_error:
+st142_error:
+st151_error:
+
+    if (matched_0 != -1) {
+        ovec[0] = matched_0;
+        ovec[1] = matched_1;
+        return matched_id;  /* fallback */
+    }
+    return NO_MATCH;
 }
