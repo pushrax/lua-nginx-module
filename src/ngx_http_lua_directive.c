@@ -1218,8 +1218,6 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
                     len += src[i].len;
                 }
 
-                len--;  /* skip the trailing '}' block terminator */
-
                 dd("saved nelts: %d", (int) saved->nelts);
                 dd("temp nelts: %d", (int) cf->args->nelts);
                 ngx_http_lua_assert(saved->nelts == 1);
@@ -1229,6 +1227,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
                     return NGX_CONF_ERROR;
                 }
                 dst->len = len;
+                dst->len--;  /* skip the trailing '}' block terminator */
 
                 p = ngx_palloc(cf->pool, len);
                 if (p == NULL) {
