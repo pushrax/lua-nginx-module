@@ -6,16 +6,6 @@
  */
 
 
-/* TODO: we should get rid of these compiler-specific progra eventually. */
-#pragma GCC diagnostic ignored "-Wunused-label"
-#pragma GCC diagnostic ignored "-Wunused-variable"
-#if __clang__
-#   pragma GCC diagnostic ignored "-Wunused-function"
-#else
-#   pragma GCC diagnostic ignored "-Wunused-but-set-variable"
-#endif
-
-
 #include "ngx_http_lua_lex.h"
 #include <stdlib.h>
 #include <stdint.h>
@@ -51,124 +41,34 @@ enum {
 int
 ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
 {
-    int      c;
     unsigned i = 0;
     int matched_0 = -1;
     int matched_1 = -1;
     int matched_id = NO_MATCH;  /* (pending) matched regex ID */
-    /* for maximum 7 threads */
+    int c;
     int caps0_0 = -1;
-    int caps0_1 = -1;
-    int caps0_2 = -1;
-    int caps0_3 = -1;
-    int caps0_4 = -1;
-    int caps0_5 = -1;
-    int caps0_6 = -1;
-    int caps0_7 = -1;
-    int caps0_8 = -1;
-    int caps0_9 = -1;
     int caps0_10 = -1;
-    int caps0_11 = -1;
     int caps0_12 = -1;
-    int caps0_13 = -1;
     int caps0_14 = -1;
-    int caps0_15 = -1;
+    int caps0_2 = -1;
+    int caps0_4 = -1;
+    int caps0_6 = -1;
+    int caps0_8 = -1;
     int caps1_0 = -1;
-    int caps1_1 = -1;
-    int caps1_2 = -1;
-    int caps1_3 = -1;
-    int caps1_4 = -1;
-    int caps1_5 = -1;
-    int caps1_6 = -1;
-    int caps1_7 = -1;
-    int caps1_8 = -1;
-    int caps1_9 = -1;
     int caps1_10 = -1;
-    int caps1_11 = -1;
     int caps1_12 = -1;
-    int caps1_13 = -1;
     int caps1_14 = -1;
-    int caps1_15 = -1;
+    int caps1_2 = -1;
+    int caps1_4 = -1;
+    int caps1_6 = -1;
+    int caps1_8 = -1;
     int caps2_0 = -1;
-    int caps2_1 = -1;
-    int caps2_2 = -1;
-    int caps2_3 = -1;
-    int caps2_4 = -1;
-    int caps2_5 = -1;
-    int caps2_6 = -1;
-    int caps2_7 = -1;
-    int caps2_8 = -1;
-    int caps2_9 = -1;
     int caps2_10 = -1;
-    int caps2_11 = -1;
-    int caps2_12 = -1;
-    int caps2_13 = -1;
-    int caps2_14 = -1;
-    int caps2_15 = -1;
-    int caps3_0 = -1;
-    int caps3_1 = -1;
-    int caps3_2 = -1;
-    int caps3_3 = -1;
-    int caps3_4 = -1;
-    int caps3_5 = -1;
-    int caps3_6 = -1;
-    int caps3_7 = -1;
-    int caps3_8 = -1;
-    int caps3_9 = -1;
+    int caps2_2 = -1;
+    int caps2_4 = -1;
+    int caps2_6 = -1;
+    int caps2_8 = -1;
     int caps3_10 = -1;
-    int caps3_11 = -1;
-    int caps3_12 = -1;
-    int caps3_13 = -1;
-    int caps3_14 = -1;
-    int caps3_15 = -1;
-    int caps4_0 = -1;
-    int caps4_1 = -1;
-    int caps4_2 = -1;
-    int caps4_3 = -1;
-    int caps4_4 = -1;
-    int caps4_5 = -1;
-    int caps4_6 = -1;
-    int caps4_7 = -1;
-    int caps4_8 = -1;
-    int caps4_9 = -1;
-    int caps4_10 = -1;
-    int caps4_11 = -1;
-    int caps4_12 = -1;
-    int caps4_13 = -1;
-    int caps4_14 = -1;
-    int caps4_15 = -1;
-    int caps5_0 = -1;
-    int caps5_1 = -1;
-    int caps5_2 = -1;
-    int caps5_3 = -1;
-    int caps5_4 = -1;
-    int caps5_5 = -1;
-    int caps5_6 = -1;
-    int caps5_7 = -1;
-    int caps5_8 = -1;
-    int caps5_9 = -1;
-    int caps5_10 = -1;
-    int caps5_11 = -1;
-    int caps5_12 = -1;
-    int caps5_13 = -1;
-    int caps5_14 = -1;
-    int caps5_15 = -1;
-    int caps6_0 = -1;
-    int caps6_1 = -1;
-    int caps6_2 = -1;
-    int caps6_3 = -1;
-    int caps6_4 = -1;
-    int caps6_5 = -1;
-    int caps6_6 = -1;
-    int caps6_7 = -1;
-    int caps6_8 = -1;
-    int caps6_9 = -1;
-    int caps6_10 = -1;
-    int caps6_11 = -1;
-    int caps6_12 = -1;
-    int caps6_13 = -1;
-    int caps6_14 = -1;
-    int caps6_15 = -1;
 
     {  /* DFA node {0} 0 */
     if (unlikely(i >= len)) {
@@ -176,7 +76,8 @@ ngx_http_lua_lex(const u_char *const s, size_t len, int *const ovec)
         goto st0_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 0 to row 1 */
@@ -244,7 +145,8 @@ st1: {  /* DFA node {1} 1 */
         goto st1_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 0 to row 1 */
@@ -312,7 +214,8 @@ st2: {  /* DFA node {59,1} 2 */
         goto st2_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -389,7 +292,8 @@ st3: {  /* DFA node {72,1} 3 */
         goto st3_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -466,7 +370,8 @@ st4: {  /* DFA node {30,50,1} 4 */
         goto st4_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 2 to row 0 */
@@ -541,7 +446,8 @@ st5: {  /* DFA node {21,1} 5 */
         goto st5_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
@@ -614,7 +520,8 @@ st6: {  /* DFA node {41,1} 6 */
         goto st6_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
@@ -715,7 +622,8 @@ st9: {  /* DFA node {65,1} 9 */
         goto st9_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -806,7 +714,8 @@ st11: {  /* DFA node {65,72,1} 11 */
         goto st11_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -816,14 +725,12 @@ st11: {  /* DFA node {65,72,1} 11 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -883,7 +790,8 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         goto st12_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -910,8 +818,6 @@ st12: {  /* DFA node {65,30,50,1} 12 */
         /* transfer caps from row 3 to row 4 */
         /* transfer caps from row 3 to row 5 */
         /* capture stores */
-        caps3_6 = i - 1;
-        caps4_10 = i - 1;
         goto st44;
         break;
         }
@@ -968,7 +874,8 @@ st13: {  /* DFA node {65,21,1} 13 */
         goto st13_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -1051,7 +958,8 @@ st14: {  /* DFA node {62,1} 14 */
         goto st14_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -1124,7 +1032,8 @@ st15: {  /* DFA node {65,41,1} 15 */
         goto st15_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -1257,7 +1166,8 @@ st18: {  /* DFA node {78,1} 18 */
         goto st18_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -1334,7 +1244,8 @@ st19: {  /* DFA node {78,59,1} 19 */
         goto st19_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -1344,14 +1255,12 @@ st19: {  /* DFA node {78,59,1} 19 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -1425,7 +1334,8 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         goto st21_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -1452,8 +1362,6 @@ st21: {  /* DFA node {78,30,50,1} 21 */
         /* transfer caps from row 3 to row 4 */
         /* transfer caps from row 3 to row 5 */
         /* capture stores */
-        caps3_6 = i - 1;
-        caps4_10 = i - 1;
         goto st70;
         break;
         }
@@ -1510,7 +1418,8 @@ st22: {  /* DFA node {78,21,1} 22 */
         goto st22_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -1593,7 +1502,8 @@ st23: {  /* DFA node {75,1} 23 */
         goto st23_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -1666,7 +1576,8 @@ st24: {  /* DFA node {78,41,1} 24 */
         goto st24_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -1823,7 +1734,8 @@ st28: {  /* DFA node {23,1} 28 */
         goto st28_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
@@ -1910,7 +1822,8 @@ st30: {  /* DFA node {43,1} 30 */
         goto st30_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         /* transfer caps from row 1 to row 0 */
@@ -1997,7 +1910,8 @@ st35: {  /* DFA node {65,78,1} 35 */
         goto st35_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -2007,14 +1921,12 @@ st35: {  /* DFA node {65,78,1} 35 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -2113,7 +2025,8 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         goto st38_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
@@ -2124,7 +2037,6 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
@@ -2132,7 +2044,6 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -2140,8 +2051,6 @@ st38: {  /* DFA node {65,78,30,50,1} 38 */
         /* transfer caps from row 4 to row 5 */
         /* transfer caps from row 4 to row 6 */
         /* capture stores */
-        caps4_6 = i - 1;
-        caps5_10 = i - 1;
         goto st91;
         break;
         }
@@ -2198,7 +2107,8 @@ st39: {  /* DFA node {65,78,21,1} 39 */
         goto st39_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -2208,14 +2118,12 @@ st39: {  /* DFA node {65,78,21,1} 39 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -2235,7 +2143,6 @@ st39: {  /* DFA node {65,78,21,1} 39 */
     case 91: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_4 = i - 1;
         goto st93;
         break;
         }
@@ -2281,7 +2188,8 @@ st40: {  /* DFA node {62,75,1} 40 */
         goto st40_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -2291,14 +2199,12 @@ st40: {  /* DFA node {62,75,1} 40 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st95;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st96;
         break;
         }
@@ -2354,7 +2260,8 @@ st41: {  /* DFA node {65,78,41,1} 41 */
         goto st41_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -2364,14 +2271,12 @@ st41: {  /* DFA node {65,78,41,1} 41 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -2403,7 +2308,6 @@ st41: {  /* DFA node {65,78,41,1} 41 */
     case 93: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_8 = i - 1;
         goto st103;
         break;
         }
@@ -2527,7 +2431,8 @@ st45: {  /* DFA node {65,23,1} 45 */
         goto st45_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -2635,7 +2540,8 @@ st47: {  /* DFA node {63,1} 47 */
         goto st47_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -2712,7 +2618,8 @@ st48: {  /* DFA node {63,59,1} 48 */
         goto st48_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -2791,7 +2698,8 @@ st49: {  /* DFA node {63,72,1} 49 */
         goto st49_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -2801,14 +2709,12 @@ st49: {  /* DFA node {63,72,1} 49 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -2868,7 +2774,8 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         goto st50_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -2895,8 +2802,6 @@ st50: {  /* DFA node {63,30,50,1} 50 */
         /* transfer caps from row 3 to row 4 */
         /* transfer caps from row 3 to row 5 */
         /* capture stores */
-        caps3_6 = i - 1;
-        caps4_10 = i - 1;
         goto st44;
         break;
         }
@@ -2953,7 +2858,8 @@ st51: {  /* DFA node {63,21,1} 51 */
         goto st51_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -3036,7 +2942,8 @@ st52: {  /* DFA node {63,41,1} 52 */
         goto st52_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -3169,7 +3076,8 @@ st55: {  /* DFA node {65,43,1} 55 */
         goto st55_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -3277,7 +3185,8 @@ st57: {  /* DFA node {65} 57 */
         goto st57_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         goto st58;
@@ -3317,7 +3226,8 @@ st59: {  /* DFA node {62} 59 */
         goto st59_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     if ((c >= 0 && c <= 9) || (c >= 11 && c <= 255)) {
         goto st112;
     }
@@ -3331,7 +3241,8 @@ st60: {  /* DFA node {78,65,1} 60 */
         goto st60_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -3341,14 +3252,12 @@ st60: {  /* DFA node {78,65,1} 60 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -3447,7 +3356,8 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         goto st63_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
@@ -3458,7 +3368,6 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
@@ -3466,7 +3375,6 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -3474,8 +3382,6 @@ st63: {  /* DFA node {78,65,30,50,1} 63 */
         /* transfer caps from row 4 to row 5 */
         /* transfer caps from row 4 to row 6 */
         /* capture stores */
-        caps4_6 = i - 1;
-        caps5_10 = i - 1;
         goto st113;
         break;
         }
@@ -3532,7 +3438,8 @@ st64: {  /* DFA node {78,65,21,1} 64 */
         goto st64_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -3542,14 +3449,12 @@ st64: {  /* DFA node {78,65,21,1} 64 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -3569,7 +3474,6 @@ st64: {  /* DFA node {78,65,21,1} 64 */
     case 91: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_4 = i - 1;
         goto st115;
         break;
         }
@@ -3615,7 +3519,8 @@ st65: {  /* DFA node {75,62,1} 65 */
         goto st65_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -3625,14 +3530,12 @@ st65: {  /* DFA node {75,62,1} 65 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st117;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st118;
         break;
         }
@@ -3688,7 +3591,8 @@ st66: {  /* DFA node {78,65,41,1} 66 */
         goto st66_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -3698,14 +3602,12 @@ st66: {  /* DFA node {78,65,41,1} 66 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -3737,7 +3639,6 @@ st66: {  /* DFA node {78,65,41,1} 66 */
     case 93: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_8 = i - 1;
         goto st125;
         break;
         }
@@ -3861,7 +3762,8 @@ st71: {  /* DFA node {78,23,1} 71 */
         goto st71_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -3969,7 +3871,8 @@ st73: {  /* DFA node {76,1} 73 */
         goto st73_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 1 to row 0 */
@@ -4046,7 +3949,8 @@ st74: {  /* DFA node {76,59,1} 74 */
         goto st74_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -4056,14 +3960,12 @@ st74: {  /* DFA node {76,59,1} 74 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -4123,7 +4025,8 @@ st75: {  /* DFA node {76,72,1} 75 */
         goto st75_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -4202,7 +4105,8 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         goto st76_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -4229,8 +4133,6 @@ st76: {  /* DFA node {76,30,50,1} 76 */
         /* transfer caps from row 3 to row 4 */
         /* transfer caps from row 3 to row 5 */
         /* capture stores */
-        caps3_6 = i - 1;
-        caps4_10 = i - 1;
         goto st70;
         break;
         }
@@ -4287,7 +4189,8 @@ st77: {  /* DFA node {76,21,1} 77 */
         goto st77_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -4370,7 +4273,8 @@ st78: {  /* DFA node {76,41,1} 78 */
         goto st78_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -4503,7 +4407,8 @@ st81: {  /* DFA node {78,43,1} 81 */
         goto st81_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -4611,7 +4516,8 @@ st83: {  /* DFA node {78} 83 */
         goto st83_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 39: {
         goto st84;
@@ -4651,7 +4557,8 @@ st85: {  /* DFA node {75} 85 */
         goto st85_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     if ((c >= 0 && c <= 9) || (c >= 11 && c <= 255)) {
         goto st134;
     }
@@ -4750,7 +4657,8 @@ st92: {  /* DFA node {65,78,23,1} 92 */
         goto st92_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -4760,14 +4668,12 @@ st92: {  /* DFA node {65,78,23,1} 92 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -4787,7 +4693,6 @@ st92: {  /* DFA node {65,78,23,1} 92 */
     case 91: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_4 = i - 1;
         goto st93;
         break;
         }
@@ -4861,7 +4766,8 @@ st94: {  /* DFA node {63,76,1} 94 */
         goto st94_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -4871,14 +4777,12 @@ st94: {  /* DFA node {63,76,1} 94 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -4938,7 +4842,8 @@ st95: {  /* DFA node {63,76,59,1} 95 */
         goto st95_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -4948,14 +4853,12 @@ st95: {  /* DFA node {63,76,59,1} 95 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -5017,7 +4920,8 @@ st96: {  /* DFA node {63,76,72,1} 96 */
         goto st96_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -5027,14 +4931,12 @@ st96: {  /* DFA node {63,76,72,1} 96 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -5096,7 +4998,8 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         goto st97_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
@@ -5107,7 +5010,6 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
@@ -5115,7 +5017,6 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -5123,8 +5024,6 @@ st97: {  /* DFA node {63,76,30,50,1} 97 */
         /* transfer caps from row 4 to row 5 */
         /* transfer caps from row 4 to row 6 */
         /* capture stores */
-        caps4_6 = i - 1;
-        caps5_10 = i - 1;
         goto st91;
         break;
         }
@@ -5181,7 +5080,8 @@ st98: {  /* DFA node {63,76,21,1} 98 */
         goto st98_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -5191,14 +5091,12 @@ st98: {  /* DFA node {63,76,21,1} 98 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -5218,7 +5116,6 @@ st98: {  /* DFA node {63,76,21,1} 98 */
     case 91: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_4 = i - 1;
         goto st93;
         break;
         }
@@ -5264,7 +5161,8 @@ st99: {  /* DFA node {63,76,41,1} 99 */
         goto st99_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -5274,14 +5172,12 @@ st99: {  /* DFA node {63,76,41,1} 99 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -5313,7 +5209,6 @@ st99: {  /* DFA node {63,76,41,1} 99 */
     case 93: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_8 = i - 1;
         goto st103;
         break;
         }
@@ -5403,7 +5298,8 @@ st102: {  /* DFA node {65,78,43,1} 102 */
         goto st102_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -5413,14 +5309,12 @@ st102: {  /* DFA node {65,78,43,1} 102 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st36;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st37;
         break;
         }
@@ -5452,7 +5346,6 @@ st102: {  /* DFA node {65,78,43,1} 102 */
     case 93: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_8 = i - 1;
         goto st103;
         break;
         }
@@ -5514,7 +5407,8 @@ st104: {  /* DFA node {65,78} 104 */
         goto st104_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         goto st105;
@@ -5583,7 +5477,8 @@ st107: {  /* DFA node {62,75} 107 */
         goto st107_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     if ((c >= 0 && c <= 9) || (c >= 11 && c <= 255)) {
         goto st142;
     }
@@ -5692,7 +5587,8 @@ st112: {  /* DFA node {63} 112 */
         goto st112_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         goto st58;
@@ -5757,7 +5653,8 @@ st114: {  /* DFA node {78,65,23,1} 114 */
         goto st114_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -5767,14 +5664,12 @@ st114: {  /* DFA node {78,65,23,1} 114 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -5794,7 +5689,6 @@ st114: {  /* DFA node {78,65,23,1} 114 */
     case 91: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_4 = i - 1;
         goto st115;
         break;
         }
@@ -5868,7 +5762,8 @@ st116: {  /* DFA node {76,63,1} 116 */
         goto st116_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 2 to row 0 */
@@ -5878,14 +5773,12 @@ st116: {  /* DFA node {76,63,1} 116 */
     case 34: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 2 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -5945,7 +5838,8 @@ st117: {  /* DFA node {76,63,59,1} 117 */
         goto st117_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -5955,14 +5849,12 @@ st117: {  /* DFA node {76,63,59,1} 117 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -6024,7 +5916,8 @@ st118: {  /* DFA node {76,63,72,1} 118 */
         goto st118_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -6034,14 +5927,12 @@ st118: {  /* DFA node {76,63,72,1} 118 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -6103,7 +5994,8 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         goto st119_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 4 to row 0 */
@@ -6114,7 +6006,6 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
@@ -6122,7 +6013,6 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         /* transfer caps from row 4 to row 2 */
         /* transfer caps from row 4 to row 3 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -6130,8 +6020,6 @@ st119: {  /* DFA node {76,63,30,50,1} 119 */
         /* transfer caps from row 4 to row 5 */
         /* transfer caps from row 4 to row 6 */
         /* capture stores */
-        caps4_6 = i - 1;
-        caps5_10 = i - 1;
         goto st113;
         break;
         }
@@ -6188,7 +6076,8 @@ st120: {  /* DFA node {76,63,21,1} 120 */
         goto st120_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -6198,14 +6087,12 @@ st120: {  /* DFA node {76,63,21,1} 120 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -6225,7 +6112,6 @@ st120: {  /* DFA node {76,63,21,1} 120 */
     case 91: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_4 = i - 1;
         goto st115;
         break;
         }
@@ -6271,7 +6157,8 @@ st121: {  /* DFA node {76,63,41,1} 121 */
         goto st121_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -6281,14 +6168,12 @@ st121: {  /* DFA node {76,63,41,1} 121 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -6320,7 +6205,6 @@ st121: {  /* DFA node {76,63,41,1} 121 */
     case 93: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_8 = i - 1;
         goto st125;
         break;
         }
@@ -6410,7 +6294,8 @@ st124: {  /* DFA node {78,65,43,1} 124 */
         goto st124_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 10: {
         /* transfer caps from row 3 to row 0 */
@@ -6420,14 +6305,12 @@ st124: {  /* DFA node {78,65,43,1} 124 */
     case 34: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_12 = i - 1;
         goto st61;
         break;
         }
     case 39: {
         /* transfer caps from row 3 to row 2 */
         /* capture stores */
-        caps2_14 = i - 1;
         goto st62;
         break;
         }
@@ -6459,7 +6342,6 @@ st124: {  /* DFA node {78,65,43,1} 124 */
     case 93: {
         /* transfer caps from row 3 to row 4 */
         /* capture stores */
-        caps3_8 = i - 1;
         goto st125;
         break;
         }
@@ -6521,7 +6403,8 @@ st126: {  /* DFA node {78,65} 126 */
         goto st126_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         goto st127;
@@ -6590,7 +6473,8 @@ st129: {  /* DFA node {75,62} 129 */
         goto st129_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     if ((c >= 0 && c <= 9) || (c >= 11 && c <= 255)) {
         goto st151;
     }
@@ -6699,7 +6583,8 @@ st134: {  /* DFA node {76} 134 */
         goto st134_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 39: {
         goto st84;
@@ -6894,7 +6779,8 @@ st142: {  /* DFA node {63,76} 142 */
         goto st142_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         goto st105;
@@ -7139,7 +7025,8 @@ st151: {  /* DFA node {76,63} 151 */
         goto st151_error;
     }
 
-    c = s[i++];
+    c = s[i];
+    i++;
     switch (c) {
     case 34: {
         goto st127;
