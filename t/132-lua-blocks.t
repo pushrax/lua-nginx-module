@@ -10,7 +10,7 @@ use Test::Nginx::Socket::Lua;
 repeat_each(2);
 #repeat_each(1);
 
-plan tests => repeat_each() * (blocks() * 3);
+plan tests => repeat_each() * (blocks() * 3 + 1);
 
 #no_diff();
 no_long_string();
@@ -224,5 +224,42 @@ received:
 received: foo
 failed to receive a line: closed []
 close: 1 nil
+--- no_error_log
+[error]
+
+
+
+=== TEST 9: rewrite_by_lua_block (curly braces in strings)
+--- config
+    location = /t {
+        set $a '';
+        rewrite_by_lua_block {
+            local s = ngx.var.a
+            s = s .. "}rewrite{\n"
+            ngx.var.a = s
+        }
+        access_by_lua_block {
+            local s = ngx.var.a
+            s = s .. '}access{\n'
+            ngx.var.a = s
+        }
+        content_by_lua_block {
+            local s = ngx.var.a
+            s = s .. [[}content{]]
+            ngx.say(s)
+        }
+        log_by_lua_block {
+            print("log by lua running \"}{!\"")
+        }
+    }
+--- request
+GET /t
+--- response_body
+}rewrite{
+}access{
+}content{
+
+--- error_log
+log by lua running "}{!"
 --- no_error_log
 [error]

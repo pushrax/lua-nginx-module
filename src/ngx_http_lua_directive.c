@@ -389,6 +389,25 @@ ngx_http_lua_filter_set_by_lua_file(ngx_http_request_t *r, ngx_str_t *val,
 
 
 char *
+ngx_http_lua_rewrite_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_rewrite_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
+}
+
+
+char *
 ngx_http_lua_rewrite_by_lua(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)
 {
     u_char                      *p, *chunkname;
@@ -480,6 +499,25 @@ ngx_http_lua_rewrite_by_lua(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)
     lmcf->requires_capture_filter = 1;
 
     return NGX_CONF_OK;
+}
+
+
+char *
+ngx_http_lua_access_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_access_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
 }
 
 
@@ -694,6 +732,25 @@ ngx_http_lua_content_by_lua(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)
     clcf->handler = ngx_http_lua_content_handler;
 
     return NGX_CONF_OK;
+}
+
+
+char *
+ngx_http_lua_log_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_log_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
 }
 
 
