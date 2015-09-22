@@ -845,6 +845,25 @@ ngx_http_lua_log_by_lua(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)
 
 
 char *
+ngx_http_lua_header_filter_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_header_filter_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
+}
+
+
+char *
 ngx_http_lua_header_filter_by_lua(ngx_conf_t *cf, ngx_command_t *cmd,
     void *conf)
 {
@@ -922,6 +941,25 @@ ngx_http_lua_header_filter_by_lua(ngx_conf_t *cf, ngx_command_t *cmd,
     lmcf->requires_header_filter = 1;
 
     return NGX_CONF_OK;
+}
+
+
+char *
+ngx_http_lua_body_filter_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_body_filter_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
 }
 
 
@@ -1008,6 +1046,25 @@ ngx_http_lua_body_filter_by_lua(ngx_conf_t *cf, ngx_command_t *cmd,
 
 
 char *
+ngx_http_lua_init_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_init_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
+}
+
+
+char *
 ngx_http_lua_init_by_lua(ngx_conf_t *cf, ngx_command_t *cmd,
     void *conf)
 {
@@ -1052,6 +1109,25 @@ ngx_http_lua_init_by_lua(ngx_conf_t *cf, ngx_command_t *cmd,
     }
 
     return NGX_CONF_OK;
+}
+
+
+char *
+ngx_http_lua_init_worker_by_lua_block(ngx_conf_t *cf, ngx_command_t *cmd,
+    void *conf)
+{
+    char        *rv;
+    ngx_conf_t   save;
+
+    save = *cf;
+    cf->handler = ngx_http_lua_init_worker_by_lua;
+    cf->handler_conf = conf;
+
+    rv = ngx_http_lua_conf_lua_block_parse(cf, cmd);
+
+    *cf = save;
+
+    return rv;
 }
 
 

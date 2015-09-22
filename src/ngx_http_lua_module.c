@@ -149,6 +149,13 @@ static ngx_command_t ngx_http_lua_cmds[] = {
       offsetof(ngx_http_lua_loc_conf_t, log_socket_errors),
       NULL },
 
+    { ngx_string("init_by_lua_block"),
+      NGX_HTTP_MAIN_CONF|NGX_CONF_BLOCK|NGX_CONF_NOARGS,
+      ngx_http_lua_init_by_lua_block,
+      NGX_HTTP_MAIN_CONF_OFFSET,
+      0,
+      (void *) ngx_http_lua_init_by_inline },
+
     { ngx_string("init_by_lua"),
       NGX_HTTP_MAIN_CONF|NGX_CONF_TAKE1,
       ngx_http_lua_init_by_lua,
@@ -162,6 +169,13 @@ static ngx_command_t ngx_http_lua_cmds[] = {
       NGX_HTTP_MAIN_CONF_OFFSET,
       0,
       (void *) ngx_http_lua_init_by_file },
+
+    { ngx_string("init_worker_by_lua_block"),
+      NGX_HTTP_MAIN_CONF|NGX_CONF_BLOCK|NGX_CONF_NOARGS,
+      ngx_http_lua_init_worker_by_lua_block,
+      NGX_HTTP_MAIN_CONF_OFFSET,
+      0,
+      (void *) ngx_http_lua_init_worker_by_inline },
 
     { ngx_string("init_worker_by_lua"),
       NGX_HTTP_MAIN_CONF|NGX_CONF_TAKE1,
@@ -258,7 +272,7 @@ static ngx_command_t ngx_http_lua_cmds[] = {
       0,
       (void *) ngx_http_lua_log_handler_inline },
 
-    /* log_by_lua_block <inline script> */
+    /* log_by_lua_block { <inline script> } */
     { ngx_string("log_by_lua_block"),
       NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_HTTP_LIF_CONF
                         |NGX_CONF_BLOCK|NGX_CONF_NOARGS,
@@ -315,6 +329,15 @@ static ngx_command_t ngx_http_lua_cmds[] = {
       0,
       (void *) ngx_http_lua_header_filter_inline },
 
+    /* header_filter_by_lua_block { <inline script> } */
+    { ngx_string("header_filter_by_lua_block"),
+      NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_HTTP_LIF_CONF
+                        |NGX_CONF_BLOCK|NGX_CONF_NOARGS,
+      ngx_http_lua_header_filter_by_lua_block,
+      NGX_HTTP_LOC_CONF_OFFSET,
+      0,
+      (void *) ngx_http_lua_header_filter_inline },
+
     { ngx_string("header_filter_by_lua_file"),
       NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_HTTP_LIF_CONF
                         |NGX_CONF_TAKE1,
@@ -327,6 +350,15 @@ static ngx_command_t ngx_http_lua_cmds[] = {
       NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_HTTP_LIF_CONF
                         |NGX_CONF_TAKE1,
       ngx_http_lua_body_filter_by_lua,
+      NGX_HTTP_LOC_CONF_OFFSET,
+      0,
+      (void *) ngx_http_lua_body_filter_inline },
+
+    /* body_filter_by_lua_block { <inline script> } */
+    { ngx_string("body_filter_by_lua_block"),
+      NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_HTTP_LIF_CONF
+                        |NGX_CONF_BLOCK|NGX_CONF_NOARGS,
+      ngx_http_lua_body_filter_by_lua_block,
       NGX_HTTP_LOC_CONF_OFFSET,
       0,
       (void *) ngx_http_lua_body_filter_inline },

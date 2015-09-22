@@ -10,7 +10,7 @@ use Test::Nginx::Socket::Lua;
 repeat_each(2);
 #repeat_each(1);
 
-plan tests => repeat_each() * (blocks() * 3 + 1);
+plan tests => repeat_each() * (blocks() * 3 + 2);
 
 #no_diff();
 no_long_string();
@@ -230,6 +230,14 @@ close: 1 nil
 
 
 === TEST 9: rewrite_by_lua_block (curly braces in strings)
+--- http_config
+    init_by_lua_block {
+        glob = "init by lua }here{"
+    }
+
+    init_worker_by_lua_block {
+        glob = glob .. ", init worker }here{"
+    }
 --- config
     location = /t {
         set $a '';
@@ -247,9 +255,26 @@ close: 1 nil
             local s = ngx.var.a
             s = s .. [[}content{]]
             ngx.say(s)
+            ngx.say("glob: ", glob)
         }
         log_by_lua_block {
             print("log by lua running \"}{!\"")
+        }
+        header_filter_by_lua_block {
+            ngx.header["Foo"] = "\"Hello, world\""
+            ngx.header["Content-Length"] = nil
+        }
+        body_filter_by_lua_block {
+            local data, eof = ngx.arg[1], ngx.arg[2]
+            print("eof = ", eof)
+            if eof then
+                if not data then
+                    data = ""
+                end
+                data = data .. "}body filter{\n"
+                print("data: ", data)
+                ngx.arg[1] = data
+            end
         }
     }
 --- request
@@ -258,7 +283,11 @@ GET /t
 }rewrite{
 }access{
 }content{
+glob: init by lua }here{, init worker }here{
+}body filter{
 
+--- response_headers
+Foo: "Hello, world"
 --- error_log
 log by lua running "}{!"
 --- no_error_log
