@@ -229,7 +229,7 @@ close: 1 nil
 
 
 
-=== TEST 9: rewrite_by_lua_block (curly braces in strings)
+=== TEST 9: all in one
 --- http_config
     init_by_lua_block {
         glob = "init by lua }here{"
