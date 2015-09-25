@@ -1296,10 +1296,15 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
     ctx.token_len = 0;
     ctx.expect_right_lbracket = 0;
     start_line = cf->conf_file->line;
+
+    dd("init start line: %d", (int) start_line);
+
     ctx.start_line = start_line;
 
     for ( ;; ) {
         rc = ngx_http_lua_conf_read_lua_token(cf, &ctx);
+
+        dd("parser start line: %d", (int) start_line);
 
         switch (rc) {
 
@@ -1328,8 +1333,6 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             if (ctx.expect_right_lbracket) {
                 break;
             }
-
-            ctx.start_line = cf->conf_file->line;
 
             level--;
             dd("seen block done: level=%d", (int) level);
@@ -1396,6 +1399,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             }
 
             ctx.expect_right_lbracket = ctx.token_len;
+            ctx.start_line = cf->conf_file->line;
             break;
 
         case FOUND_LEFT_LBRACKET_CMT:
@@ -1404,6 +1408,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             }
 
             ctx.expect_right_lbracket = ctx.token_len - (sizeof("--") - 1);
+            ctx.start_line = cf->conf_file->line;
             break;
 
         case FOUND_RIGHT_LBRACKET:
@@ -1480,6 +1485,8 @@ ngx_http_lua_conf_read_lua_token(ngx_conf_t *cf,
     start_line = cf->conf_file->line;
     buf_size = b->end - b->start;
 
+    dd("lexer start line: %d", (int) start_line);
+
     file_size = ngx_file_size(&cf->conf_file->file.info);
 
     for ( ;; ) {
@@ -1550,15 +1557,18 @@ ngx_http_lua_conf_read_lua_token(ngx_conf_t *cf,
 
         if (rc < 0) {  /* no match */
             if (ctx->expect_right_lbracket) {
-                cf->conf_file->line = ctx->expect_right_lbracket;
+                cf->conf_file->line = ctx->start_line;
+                ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
+                                   "Lua code block missing the closing "
+                                   "long bracket");
 
             } else {
                 cf->conf_file->line = start_line;
+                ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
+                                   "Lua code block missing the \"}\" "
+                                   "character");
             }
 
-            ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
-                               "Lua code block missing terminating "
-                               "characters");
             return NGX_ERROR;
         }
 

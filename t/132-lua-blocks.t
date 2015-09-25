@@ -292,3 +292,61 @@ Foo: "Hello, world"
 log by lua running "}{!"
 --- no_error_log
 [error]
+
+
+
+=== TEST 10: missing ]] (string)
+--- config
+    location = /t {
+        content_by_lua_block {
+            ngx.say([[hello, world")
+        }
+    }
+--- request
+GET /t
+--- response_body
+hello, world
+--- no_error_log
+[error]
+--- must_die
+--- error_log eval
+qr/\[emerg\] .*? Lua code block missing the closing long bracket in .*?\bnginx\.conf:40/
+
+
+
+=== TEST 11: missing ]] (comment)
+--- config
+    location = /t {
+        content_by_lua_block {
+            ngx.say(--[[hello, world")
+        }
+    }
+--- request
+GET /t
+--- response_body
+hello, world
+--- no_error_log
+[error]
+--- must_die
+--- error_log eval
+qr/\[emerg\] .*? Lua code block missing the closing long bracket in .*?\bnginx\.conf:40/
+
+
+
+=== TEST 12: missing }
+FIXME: we need better diagnostics by actually loading the inlined Lua code while parsing
+the *_by_lua_block directive.
+
+--- config
+    location = /t {
+        content_by_lua_block {
+            ngx.say("hello")
+--- request
+GET /t
+--- response_body
+hello, world
+--- no_error_log
+[error]
+--- error_log
+"events" directive is not allowed here
+--- must_die
