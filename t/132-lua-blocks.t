@@ -364,3 +364,20 @@ GET /t
 hello, world!
 --- no_error_log
 [error]
+
+
+
+=== TEST 14: content_by_lua_block (unexpected closing long brackets)
+--- config
+    location = /t {
+        content_by_lua_block {
+            ]=]
+        }
+    }
+--- request
+GET /t
+--- no_error_log
+[error]
+--- error_log eval
+qr{\[emerg\] .*? unexpected lua closing long-bracket in .*?/nginx\.conf:40}
+--- must_die
