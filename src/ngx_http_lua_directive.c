@@ -1500,9 +1500,9 @@ ngx_http_lua_conf_read_lua_token(ngx_conf_t *cf,
                 cf->conf_file->line = ctx->start_line;
 
                 ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
-                              "unexpected end of file, "
-                              "expecting a closing lua long-bracket");
-
+                                   "unexpected end of file, expecting "
+                                   "terminating characters for lua code "
+                                   "block");
                 return NGX_ERROR;
             }
 
