@@ -350,3 +350,17 @@ hello, world
 --- error_log
 "events" directive is not allowed here
 --- must_die
+
+
+
+=== TEST 13: content_by_lua_block (compact)
+--- config
+    location = /t {
+        content_by_lua_block {ngx.say("hello, world", {"!"})}
+    }
+--- request
+GET /t
+--- response_body
+hello, world!
+--- no_error_log
+[error]

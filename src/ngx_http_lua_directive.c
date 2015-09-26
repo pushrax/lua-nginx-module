@@ -1375,6 +1375,8 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
                     p = ngx_copy(p, src[i].data, src[i].len);
                 }
 
+                p[-1] = '\0';  /* override the last '}' char to null */
+
                 cf->args = saved;
 
                 rv = (*cf->handler)(cf, cmd, cf->handler_conf);
