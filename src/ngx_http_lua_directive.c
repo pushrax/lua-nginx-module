@@ -1264,26 +1264,26 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
     ngx_uint_t        i, start_line;
     ngx_array_t      *saved;
     enum {
-        PARSE_BLOCK = 0,
-        PARSE_PARAM
+        parse_block = 0,
+        parse_param
     } type;
     enum {
-        FOUND_LEFT_CURLY = 0,
-        FOUND_RIGHT_CURLY,
-        FOUND_LEFT_LBRACKET_STR,
-        FOUND_LEFT_LBRACKET_CMT,
-        FOUND_RIGHT_LBRACKET,
-        FOUND_COMMENT_LINE,
-        FOUND_DOUBLE_QUOTED,
-        FOUND_SINGLE_QUOTED
+        found_left_curly = 0,
+        found_right_curly,
+        found_left_lbracket_str,
+        found_left_lbracket_cmt,
+        found_right_lbracket,
+        found_comment_line,
+        found_double_quoted,
+        found_single_quoted
     };
 
     if (cf->conf_file->file.fd != NGX_INVALID_FILE) {
 
-        type = PARSE_BLOCK;
+        type = parse_block;
 
     } else {
-        type = PARSE_PARAM;
+        type = parse_param;
     }
 
     saved = cf->args;
@@ -1311,14 +1311,14 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
         case NGX_ERROR:
             goto done;
 
-        case FOUND_LEFT_CURLY:
+        case found_left_curly:
             if (ctx.expect_right_lbracket) {
                 break;
             }
 
             ctx.start_line = cf->conf_file->line;
 
-            if (type == PARSE_PARAM) {
+            if (type == parse_param) {
                 ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
                                    "block directives are not supported "
                                    "in -g option");
@@ -1329,7 +1329,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             dd("seen block start: level=%d", (int) level);
             break;
 
-        case FOUND_RIGHT_CURLY:
+        case found_right_curly:
             if (ctx.expect_right_lbracket) {
                 break;
             }
@@ -1337,7 +1337,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             level--;
             dd("seen block done: level=%d", (int) level);
 
-            if (type != PARSE_BLOCK || level < 0) {
+            if (type != parse_block || level < 0) {
                 ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
                                    "unexpected \"}\": level %d, "
                                    "starting at line %ui", level,
@@ -1393,7 +1393,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
 
             break;
 
-        case FOUND_LEFT_LBRACKET_STR:
+        case found_left_lbracket_str:
             if (ctx.expect_right_lbracket) {
                 break;
             }
@@ -1402,7 +1402,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             ctx.start_line = cf->conf_file->line;
             break;
 
-        case FOUND_LEFT_LBRACKET_CMT:
+        case found_left_lbracket_cmt:
             if (ctx.expect_right_lbracket) {
                 break;
             }
@@ -1411,7 +1411,7 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             ctx.start_line = cf->conf_file->line;
             break;
 
-        case FOUND_RIGHT_LBRACKET:
+        case found_right_lbracket:
             if (!ctx.expect_right_lbracket) {
                 ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
                                    "unexpected lua closing long-bracket");
@@ -1426,9 +1426,9 @@ ngx_http_lua_conf_lua_block_parse(ngx_conf_t *cf, ngx_command_t *cmd)
             ctx.expect_right_lbracket = 0;
             break;
 
-        case FOUND_COMMENT_LINE:
-        case FOUND_DOUBLE_QUOTED:
-        case FOUND_SINGLE_QUOTED:
+        case found_comment_line:
+        case found_double_quoted:
+        case found_single_quoted:
             if (ctx.expect_right_lbracket) {
                 break;
             }
