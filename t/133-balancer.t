@@ -9,7 +9,7 @@ use Test::Nginx::Socket::Lua;
 
 repeat_each(2);
 
-plan tests => repeat_each() * (blocks() * 4 + 9);
+plan tests => repeat_each() * (blocks() * 4 + 13);
 
 #no_diff();
 no_long_string();
@@ -20,7 +20,7 @@ __DATA__
 === TEST 1: simple logging
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
         }
@@ -36,7 +36,7 @@ __DATA__
 --- error_log eval
 [
 '[lua] balancer_by_lua:2: hello from balancer by lua! while connecting to upstream,',
-qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
+qr{\[crit\] .*? connect\(\) to 0\.0\.0\.1:80 failed .*?, upstream: "http://0\.0\.0\.1:80/t"},
 ]
 --- no_error_log
 [warn]
@@ -48,7 +48,7 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
     lua_package_path "../lua-resty-core/lib/?.lua;lua/?.lua;;";
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
             local b = require "ngx.balancer"
@@ -81,7 +81,7 @@ qr{connect\(\) failed .*?, upstream: "http://127\.0\.0\.3:12345/t"},
     proxy_next_upstream_tries 10;
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
             local b = require "ngx.balancer"
@@ -125,7 +125,7 @@ qr#^(?:connect\(\) failed .*?, upstream: "http://127.0.0.3:12345/t"\n){3}$#
     proxy_next_upstream_tries 10;
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
             local b = require "ngx.balancer"
@@ -161,7 +161,7 @@ qr#^(?:connect\(\) failed .*?, upstream: "http://127.0.0.3:12345/t"\n){1}$#
     proxy_next_upstream_tries 2;
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             local b = require "ngx.balancer"
 
@@ -205,7 +205,7 @@ set more tries: reduced tries due to limit
     proxy_next_upstream_tries 10;
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             local b = require "ngx.balancer"
 
@@ -259,7 +259,7 @@ last peer failure: next 404
     proxy_next_upstream_tries 10;
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             local b = require "ngx.balancer"
 
@@ -313,7 +313,7 @@ last peer failure: failed 500
     proxy_next_upstream_tries 10;
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             local b = require "ngx.balancer"
 
@@ -362,7 +362,7 @@ last peer failure: failed 502
 === TEST 9: exit 403
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
             ngx.exit(403)
@@ -381,7 +381,7 @@ last peer failure: failed 502
 --- no_error_log eval
 [
 '[warn]',
-qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
+qr{\[crit\] .*? connect\(\) to 0\.0\.0\.1:80 failed .*?, upstream: "http://0\.0\.0\.1:80/t"},
 ]
 
 
@@ -389,7 +389,7 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
 === TEST 10: exit OK
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
             ngx.exit(ngx.OK)
@@ -406,7 +406,7 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
 --- error_log eval
 [
 '[lua] balancer_by_lua:2: hello from balancer by lua! while connecting to upstream,',
-qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
+qr{\[crit\] .*? connect\(\) to 0\.0\.0\.1:80 failed .*?, upstream: "http://0\.0\.0\.1:80/t"},
 ]
 --- no_error_log
 [warn]
@@ -416,7 +416,7 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
 === TEST 11: ngx.var works
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("1: variable foo = ", ngx.var.foo)
             ngx.var.foo = tonumber(ngx.var.foo) + 1
@@ -432,9 +432,12 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
     GET /t
 --- response_body_like: 502 Bad Gateway
 --- error_code: 502
---- error_log
-1: variable foo = 32
-2: variable foo = 33
+--- error_log eval
+[
+"1: variable foo = 32",
+"2: variable foo = 33",
+qr/\[crit\] .* connect\(\) .*? failed/,
+]
 --- no_error_log
 [warn]
 
@@ -443,7 +446,7 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
 === TEST 12: ngx.req.get_headers works
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("header foo: ", ngx.req.get_headers()["foo"])
         }
@@ -458,8 +461,11 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
 Foo: bar
 --- response_body_like: 502 Bad Gateway
 --- error_code: 502
---- error_log
-header foo: bar
+--- error_log eval
+[
+"header foo: bar",
+qr/\[crit\] .* connect\(\) .*? failed/,
+]
 --- no_error_log
 [warn]
 
@@ -468,7 +474,7 @@ header foo: bar
 === TEST 13: ngx.req.get_uri_args() works
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("arg foo: ", ngx.req.get_uri_args()["foo"])
         }
@@ -483,8 +489,10 @@ header foo: bar
 Foo: bar
 --- response_body_like: 502 Bad Gateway
 --- error_code: 502
---- error_log
-arg foo: bar
+--- error_log eval
+["arg foo: bar",
+qr/\[crit\] .* connect\(\) .*? failed/,
+]
 --- no_error_log
 [warn]
 
@@ -493,7 +501,7 @@ arg foo: bar
 === TEST 14: ngx.req.get_method() works
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("method: ", ngx.req.get_method())
         }
@@ -508,8 +516,11 @@ arg foo: bar
 Foo: bar
 --- response_body_like: 502 Bad Gateway
 --- error_code: 502
---- error_log
-method: GET
+--- error_log eval
+[
+"method: GET",
+qr/\[crit\] .* connect\(\) .*? failed/,
+]
 --- no_error_log
 [warn]
 
@@ -518,7 +529,7 @@ method: GET
 === TEST 15: simple logging (by_lua_file)
 --- http_config
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_file html/a.lua;
     }
 --- config
@@ -535,7 +546,7 @@ print("hello from balancer by lua!")
 --- error_log eval
 [
 '[lua] a.lua:1: hello from balancer by lua! while connecting to upstream,',
-qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
+qr{\[crit\] .*? connect\(\) to 0\.0\.0\.1:80 failed .*?, upstream: "http://0\.0\.0\.1:80/t"},
 ]
 --- no_error_log
 [warn]
@@ -547,7 +558,7 @@ qr{connect\(\) failed .*?, upstream: "http://0\.0\.0\.0:80/t"},
     lua_package_path "../lua-resty-core/lib/?.lua;lua/?.lua;;";
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
             local b = require "ngx.balancer"
@@ -577,7 +588,7 @@ qr{connect\(\) failed .*?, upstream: "http://127\.0\.0\.3:12345/t"},
     lua_package_path "../lua-resty-core/lib/?.lua;lua/?.lua;;";
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         keepalive 10;
         balancer_by_lua_block {
             print("hello from balancer by lua!")
@@ -615,7 +626,7 @@ qr{connect\(\) failed .*?, upstream: "http://127\.0\.0\.3:12345/t"},
     lua_package_path "../lua-resty-core/lib/?.lua;lua/?.lua;;";
 
     upstream backend {
-        server 0.0.0.0;
+        server 0.0.0.1;
         balancer_by_lua_block {
             local b = require "ngx.balancer"
             assert(b.set_current_peer("127.0.0.1", tonumber(ngx.var.server_port)))
