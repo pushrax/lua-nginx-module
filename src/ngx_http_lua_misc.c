@@ -19,6 +19,7 @@
 static int ngx_http_lua_ngx_get(lua_State *L);
 static int ngx_http_lua_ngx_set(lua_State *L);
 static int ngx_http_lua_ngx_req_is_internal(lua_State *L);
+static int ngx_http_lua_ngx_req_upstream_name(lua_State *L);
 
 
 void
@@ -39,6 +40,9 @@ ngx_http_lua_inject_req_misc_api(lua_State *L)
 {
     lua_pushcfunction(L, ngx_http_lua_ngx_req_is_internal);
     lua_setfield(L, -2, "is_internal");
+
+    lua_pushcfunction(L, ngx_http_lua_ngx_req_upstream_name);
+    lua_setfield(L, -2, "upstream_name");
 }
 
 
@@ -53,6 +57,46 @@ ngx_http_lua_ngx_req_is_internal(lua_State *L)
     }
 
     lua_pushboolean(L, r->internal == 1);
+    return 1;
+}
+
+
+static int
+ngx_http_lua_ngx_req_upstream_name(lua_State *L)
+{
+    ngx_http_request_t *r;
+    ngx_http_upstream_t *us;
+    ngx_http_upstream_conf_t *ucf;
+    ngx_http_upstream_srv_conf_t *uscf;
+
+    r = ngx_http_lua_get_req(L);
+    if (r == NULL) {
+        return luaL_error(L, "no request object found");
+    }
+
+    us = r->upstream;
+    if (us == NULL) {
+        lua_pushnil(L); /* no proxying is being done */
+        return 1;
+    }
+
+    ucf = us->conf;
+    if (ucf == NULL) {
+        return luaL_error(L, "no conf for upstream");
+    }
+
+    uscf = ucf->upstream;
+    if (uscf == NULL) {
+        return luaL_error(L, "no srv conf for upstream");
+    }
+
+    lua_pushlstring(L, (char *) uscf->host.data, uscf->host.len);
+
+    if (uscf->port) {
+        lua_pushfstring(L, ":%d", (int) uscf->port);
+        lua_concat(L, 2);
+    }
+
     return 1;
 }
 
